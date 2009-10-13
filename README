@@ -1,0 +1,21 @@
+TODO:
+	* Add the following functions and provide code.
+	* Provide examples for each function in the help documents.
+	* Add the functions (days.agg, months.agg, seasons.agg, years.agg)
+	* Write and add changing functions for each of the above of the aggregation 
+	methods above.
+	* Add require(chron) to the package.
+	* Add some data files for the examples.
+
+PROBLEMS:
+	1. Fix the names of the returned data.frame using hours.agg
+	2. Get hours.agg to return data <return(data)> so it gives output without
+	being assigned to an object.
+	3. As above for hours.change aswell (it does give the right headings).
+
+WISHLIST:
+	* Get weeks to work. At present only can achieve this by using 7 days.
+	* Add the ability to set the na.rm value as input rather than the current
+	compulsory <na.rm=T>
+	
+
