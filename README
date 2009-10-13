@@ -17,5 +17,7 @@ WISHLIST:
 	* Get weeks to work. At present only can achieve this by using 7 days.
 	* Add the ability to set the na.rm value as input rather than the current
 	compulsory <na.rm=T>
-	
+
+COMPLETED:
+	*Finished timeseries.R script works with warnings and error notifications.
 
