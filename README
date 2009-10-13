@@ -20,4 +20,5 @@ WISHLIST:
 
 COMPLETED:
 	*Finished timeseries.R script works with warnings and error notifications.
+	*Finished timeseries.Rd with working examples.
 
