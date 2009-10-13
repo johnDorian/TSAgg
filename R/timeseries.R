@@ -5,6 +5,7 @@ timeseries<-
 		if(!is.null(data)&&length(dates)!=length(data))
 			stop("Lengths differ between dates (",length(dates),") and data (",length(data), ").")
 		dates<-(strptime(dates,dateformat))
+		minute<- as.numeric(format(dates,"%M"))
 		hour<- as.numeric(format(dates,"%H"))
 		day<-as.numeric(format(dates,"%d"))
 		week<-as.numeric(format(dates,"%W"))
@@ -14,11 +15,11 @@ timeseries<-
 			stop("Dates must contain atleast three fields")}
 		if(is.null(data)){
 			warning("NO DATA PROVIDED")
-			results<-data.frame(dates,hour,day,week,month,year)
+			results<-data.frame(dates,minute,hour,day,week,month,year)
 			return(results)
 			}
 		else{
-			results<-data.frame(dates,hour,day,week,month,year,data)
+			results<-data.frame(dates,minute,hour,day,week,month,year,data)
 			return(results)
 		}
 	}
