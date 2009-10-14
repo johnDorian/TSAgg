@@ -70,6 +70,7 @@ dates<-c("01-01-1990","02-01-1990","03-01-1990","05-03-1990","01-05-1990")
 data<-data.frame(x1=seq(1:5),x2=rnorm(5),x3=rep(1,5))
 
 timeseries(dates,"%d-%m-%Y",data)
+}
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
