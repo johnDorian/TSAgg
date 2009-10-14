@@ -2,7 +2,7 @@ timeseries<-
 	function(dates,
 			 dateformat,
 			 data=NULL){
-		if(length(data[])>1)data.length=length(data[,1])else data.length=length(data)
+		if(class(data)=="numeric")data.length=length(data)else data.length=length(data[,1])
 		if(!is.null(data)&&length(dates)!=data.length)
 			stop("Lengths differ between dates (",length(dates),") and data (",data.length, ").")
 		dates<-(strptime(dates,dateformat))
