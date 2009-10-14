@@ -22,7 +22,7 @@ A column or vector of dates. Must be atleast three elements.
 The format of the \code{dates}. See also \code{\link{strptime}}.
 }
   \item{data}{
-An optional column or vector. This must be the same length as the \code{dates}.
+An optional column(s) or vector. This must be the same length as the \code{dates}.
 }
 }
 \details{
@@ -65,33 +65,12 @@ data<-c(1,2,3,4,5)
 
 timeseries(dates,"%d-%m-%Y %H:%M",data)
 
+#Data with multiple data columns
+dates<-c("01-01-1990","02-01-1990","03-01-1990","05-03-1990","01-05-1990")
+data<-data.frame(x1=seq(1:5),x2=rnorm(5),x3=rep(1,5))
 
-## The function is currently defined as
-function(dates,
- dateformat,
- data=NULL){
-if(!is.null(data)&&length(dates)!=length(data))
-stop("Lengths differ between dates (",length(dates),") and data (",length(data), ").")
-dates<-(strptime(dates,dateformat))
-minute<-as.numeric(format(dates, "\%M"))
-hour<- as.numeric(format(dates,"\%H"))
-day<-as.numeric(format(dates,"\%d"))
-week<-as.numeric(format(dates,"\%W"))
-month<-as.numeric(format(dates,"\%m"))
-year<-as.numeric(format(dates,"\%Y"))
-if(is.na(sum(year))){
-stop("Dates must contain atleast three fields")}
-if(is.null(data)){
-warning("NO DATA PROVIDED")
-results<-data.frame(dates,minute,hour,day,week,month,year)
-return(results)
-  }
-else{
-results<-data.frame(dates,minute,hour,day,week,month,year,data)
-return(results)
-  }
-  }
-}
+timeseries(dates,"%d-%m-%Y",data)
+
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~timeseries }

@@ -21,4 +21,5 @@ WISHLIST:
 COMPLETED:
 	*Finished timeseries.R script works with warnings and error notifications.
 	*Finished timeseries.Rd with working examples.
+	*Added the ability for timeseries.R to handle multiple R columns.
 

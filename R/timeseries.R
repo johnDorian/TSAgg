@@ -2,8 +2,9 @@ timeseries<-
 	function(dates,
 			 dateformat,
 			 data=NULL){
-		if(!is.null(data)&&length(dates)!=length(data))
-			stop("Lengths differ between dates (",length(dates),") and data (",length(data), ").")
+		if(length(data[])>1)data.length=length(data[,1])else data.length=length(data)
+		if(!is.null(data)&&length(dates)!=data.length)
+			stop("Lengths differ between dates (",length(dates),") and data (",data.length, ").")
 		dates<-(strptime(dates,dateformat))
 		minute<- as.numeric(format(dates,"%M"))
 		hour<- as.numeric(format(dates,"%H"))
@@ -23,3 +24,7 @@ timeseries<-
 			return(results)
 		}
 	}
+
+
+
+
