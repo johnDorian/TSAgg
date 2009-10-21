@@ -1,0 +1,38 @@
+##Working ground
+setwd("/home/jason/Desktop/R_stuff/geoR")
+data<-read.csv("quality_data_wo_duplicates.csv")
+temp<-as.POSIXlt(data[,2]*60*60*24,origin="1970-01-01 GMT")
+temp<-temp+1
+min<-as.numeric(format(temp,"%M"))
+hour<-as.numeric(format(temp,"%H"))
+year<-as.numeric(format(temp,"%Y"))
+day<-as.numeric(format(temp,"%d"))
+month<-as.numeric(format(temp,"%m"))
+temp2<-as.POSIXlt(strptime(paste(hour,min,day,month,year),"%H %M %d %m %Y"))
+
+data[,2]<-temp2
+
+
+days.agg<-function(data,process,multiple){
+	day<-aggregate(list(data=data$data,count=1),list(day=data$day,month=data$month,year=data$year),sum,na.rm=T)
+	days<- as.POSIXlt(strptime(paste(day$day,day$month,day$year),"%d %m %Y"))
+	data<-data.frame(date=days,data=day$data,count=day$count)
+
+
+		if(multiple>1){
+
+			len<-ceiling(length(data[,1])/multiple)
+			blocks<-rep(1:len,each=multiple,length=length(data[,1]))
+			first.date<-rep(1:multiple,length=length(data[,1]))
+			data<-data.frame(data,blocks,first.date)
+			#day<-tapply(data$data,data$blocks,process)
+			#dates<-subset(data,first.date==1)
+			#data<-data.frame(dates,data=day[],)
+		}
+return(data)
+}
+
+
+#test<-days.agg(dat,sum,8)
+#test2<-days.agg(dat,sum,8)
+test2<-days.agg(dat,sum,8)
