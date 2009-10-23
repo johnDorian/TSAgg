@@ -1,6 +1,6 @@
-Package: timeSeries
-Type: Time Formating
-Version: 0.1-beta
+Package: timeSeries-beta
+Type: Time Series Aggregation
+Version: 0.1.1-beta
 Title: Time formating made under R 2.9.2
 Description: Time formating made under R 2.9.2
 Author: Jason Lessels. FAFNR. The University of Sydney, Australia.
