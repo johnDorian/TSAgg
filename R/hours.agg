@@ -1,0 +1,8 @@
+hours.agg<-function(data,process,hours,starting.date){
+starting.date<-starting.date-minutes(starting.date)*60
+temp<-as.numeric(difftime(data$dates,starting.date,units="mins"))
+temp2<-temp-(temp%%(hours*60))
+data$dates<-starting.date+temp2*60
+data<-data.frame(date=as.POSIXlt(data$dates),data=data$data)
+data<-aggregate(data$data,list(data$date),process,na.rm=T)
+}
