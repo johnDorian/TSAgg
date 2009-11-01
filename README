@@ -1,25 +1,30 @@
+PROPOSED STEPS:
+	1. Get the seasons and years functions written.
+	2. Get the seasons,hours and years to handle multiple data cols.
+	3. Change the timeseries object to a list to make it easier to also display attributes, such as min, max,  equal time step etc.
 TODO:
 	* Update the help files for both days and month gag functions.
 	* Add the following functions and provide code.
 	* Provide examples for each function in the help documents.
-	* Add the functions (hours.agg seasons.agg, years.agg)
+	* Add the functions (seasons.agg, years.agg)
 	* Write and add changing functions for each of the above of the aggregation methods above.
-	* Add require(chron) to the package. - POSSIBLE REMOVE
-	* Add some data files for the examples. - Has been done but do to copyright need to remove these.
+	*Remove copyright protected data files and add some non copyrighted stuff
 	* PROPER TESTINGÉ
 	* Get all the functions to handle multiple data cols.
-
+	* As above for the hours.agg function, the days and months should be fine for multiple data cols.
+	* Fix the names of the returned data.frame using hours.agg
 PROBLEMS:
-	1. Fix the names of the returned data.frame using hours.agg
-	2. Get hours.agg to return data <return(data)> so it gives output without being assigned to an object.
-	3. As above for hours.change aswell (it does give the right headings).
+	1. Get hours.agg to return data <return(data)> so it gives output without being assigned to an object.
+	2. As above for hours.change aswell (it does give the right headings).
 
 WISHLIST:
-	* Get weeks to work. At present only can achieve this by using 7 days.
+	* Convert the timeSeries objects to list to include a summary and other components such as 
+	* Get weeks to work. At present only can achieve this by using 7 days - This might be left as is, or use a merge of complete dataframe and incomplete type.
 	* Add the ability to set the na.rm value as input rather than the current compulsory <na.rm=T>
 
 COMPLETED:
 	*Finished timeseries.R script works with warnings and error notifications.
 	*Finished timeseries.Rd with working examples.
-	*Added the ability for timeseries.R to handle multiple R columns.
+	*Finished days.agg script to handle multiple days and multiple data cols and incomplete datasets.
+	*Finished months.agg script to handle multiple months, incomplete datasets and multiple data cols.
 
