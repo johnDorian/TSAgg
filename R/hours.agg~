@@ -1,19 +1,12 @@
 hours.agg<-
 	function(data,
 			process,
-			multiple=NULL
-			na.rm=FALSE){
+			na.rm=F){
 		
           message("-----------------------------------------------------")
           message("Warning: Currently multiple hours are not possible.  ")
           message("-----------------------------------------------------")
 
-		if(!is.null(multiple)&&multiple>1){
-			hours<-as.numeric(difftime(dat[,1],dat[1,1],"mins"))*60
-		}
-	
-		hour.diff<-hours%%multiple
-		data$mins<-data$mins-hour.diff
 		result<-aggregate(list(data=data$data),list(day=data$day,month=data$month,year=data$year,hour=data$hour),process,na.rm=na.rm)
                 data <- data.frame(Date=strptime(paste(00,result$hour,result$day,result$month,result$year),"%M %H %d %m %Y"),data=result$data)
                 sorted <- data[order(data$Date),]
