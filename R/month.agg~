@@ -4,7 +4,7 @@ month.agg<-function(data,
 		    na.rm=F){
 	
 	if(is.null(multiple)){
-		message("No multiple provided, aggregating to single months")
+		warning("No multiple provided, aggregating to single months")
 		multiple=1
 	}	
 	

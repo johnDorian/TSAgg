@@ -4,19 +4,19 @@
 ##TODO: More testing....but for now it is working for all types of data (fingers crossed)
 ##DESIRED: ALOW THE USER TO SET THE NA.RM RATHER THAN THE CURRENT DEFAULT TRUE SETTING.
 
-days.agg<-function(data,process,multiple=NULL,na.rm=F){
+days.agg<-function(data,process,multiple=NULL){
 		if(is.null(multiple)){
 		warning("No multiple provided, aggregating to single days",call.=F)
 		multiple=1
 	}
 		if(multiple==1){
-		day<-aggregate(list(data=data$data),list(day=data$day,month=data$month,year=data$year),process,na.rm=na.rm)
+		day<-aggregate(list(data=data$data),list(day=data$day,month=data$month,year=data$year),process,na.rm=T)
 	days<- as.Date(strptime(paste(day$day,day$month,day$year),"%d %m %Y"))
 	data<-data.frame(date=days,data=day[,4:length(day)])
 	return(data)
 		}
 	
-	day<-aggregate(list(data=data$data,count=1),list(day=data$day,month=data$month,year=data$year),process,na.rm=na.rm)
+	day<-aggregate(list(data=data$data,count=1),list(day=data$day,month=data$month,year=data$year),process,na.rm=T)
 	days<- as.Date(strptime(paste(day$day,day$month,day$year),"%d %m %Y"))
 	data<-data.frame(date=days,data=day[,5:length(day)-1],count=day$count)
 	days=paste(multiple,"days")
