@@ -1,0 +1,8 @@
+.First.lib <- function(lib, pkg)
+{
+library.dynam("TSAgg", package = pkg, lib.loc = "/home/jason/R/x86_64-pc-linux-gnu-library/2.10")
+cat("------------------------")
+cat(pkg.info["Title"])
+cat("\n")
+}
+

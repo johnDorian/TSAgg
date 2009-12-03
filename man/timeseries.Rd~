@@ -48,6 +48,27 @@ Still in beta, with VERY LIMITED TESTING.
 }
 \examples{
 
+dates<-c("01-01-1990","02-01-1990","03-01-1990","05-03-1990","01-05-1990")
+data<-c(1,2,3,4,5)
+
+timeseries(dates,"%d-%m-%Y",data)
+timeseries(dates,"%d-%m-%Y")
+
+#Data without days 
+dates<-c("jan-1990","jan-1990","jan-1990","mar-1990","may-1990")
+
+timeseries(paste(01,dates),"%d %b-%Y")
+
+#Dates with time
+dates<-c("01-01-1990 11:30","02-01-1990 12:56","03-01-1990 10:34","05-03-1990 9:01","01-05-1990 9:01")
+data<-c(1,2,3,4,5)
+
+timeseries(dates,"%d-%m-%Y %H:%M",data)
+
+#Data with multiple data columns
+dates<-c("01-01-1990","02-01-1990","03-01-1990","05-03-1990","01-05-1990")
+data<-data.frame(x1=seq(1:5),x2=rnorm(5),x3=rep(1,5))
+timeseries(dates,"%d-%m-%Y",data)
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
