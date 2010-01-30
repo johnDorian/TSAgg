@@ -1,7 +1,8 @@
 PROPOSED STEPS:
 	1. Get the seasons and years functions written.
-	2. Get the seasons,hours and years to handle multiple data cols.
-	3. Change the timeseries object to a list to make it easier to also display attributes, such as min, max,  equal time step etc.
+	2. Get hours to handle multiple hours
+	3. Get the seasons,hours and years to handle multiple data cols.
+	4. Change the timeseries object to a list to make it easier to also display attributes, such as min, max,  equal time step etc.
 TODO:
 	* Update the help files for both days and month gag functions.
 	* Add the following functions and provide code.

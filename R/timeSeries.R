@@ -1,4 +1,4 @@
-timeseries<-
+timeSeries<-
 	function(dates,
 			 dateformat,
 			 data=NULL){
@@ -12,8 +12,8 @@ timeseries<-
 		week<-as.numeric(format(dates,"%W"))
 		month<-as.numeric(format(dates,"%m"))
 		year<-as.numeric(format(dates,"%Y"))
-		if(is.na(sum(year))){
-			stop("Dates must contain atleast three fields")}
+		#if(is.na(sum(year))){   
+		#	stop("Dates must contain atleast three fields")}
 		if(is.null(data)){
 			warning("NO DATA PROVIDED")
 			results<-data.frame(dates,minute,hour,day,week,month,year)

@@ -1,10 +1,10 @@
-month.agg<-function(data,
+monthsAgg<-function(data,
 		    process,
 	    	    multiple=NULL,
 		    na.rm=F){
 	
 	if(is.null(multiple)){
-		message("No multiple provided, aggregating to single months")
+		message("No multiple provided by user, aggregating to single months")
 		multiple=1
 	}	
 	

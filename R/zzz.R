@@ -2,6 +2,8 @@
 {
 cat("------------------------------------------------")
 cat("\n")
+cat("Thanks for using TSAgg_v0.1-3")
+cat("\n")
 cat("This package is still under developement.")
 cat("\n")
 cat("Please use with caution.")
