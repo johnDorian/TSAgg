@@ -3,10 +3,11 @@ PROPOSED STEPS:
 list(date=…,data=…,type=timeSeries)
 	2. Add a tz export function.
 	3. Get all functions to handle multiple datasets
+	4. investigate using (cummulative.month-cummulative.month%%multiple)%%12 for calculating the months
 TODO:
 	* test on windows/linux
 PROBLEMS:
-	*None yet… (only tested on OS 10.6.2 with R 10.0.0)
+	* Wont handle more than 12 month blocks.
 WISHLIST:
 	* Convert the timeSeries objects to a class.
 
