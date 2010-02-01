@@ -1,9 +1,3 @@
-########################################
-#####   CREATED BY JASON LESSELS   #####
-########################################
-##TODO: More testing....but for now it is working for all types of data (fingers crossed)
-##DESIRED: ALOW THE USER TO SET THE NA.RM RATHER THAN THE CURRENT DEFAULT TRUE SETTING.
-
 daysAgg<-function(data,process,multiple=NULL,na.rm=F){
 		if(is.null(multiple)){
 		warning("No multiple provided, aggregating to single days",call.=F)

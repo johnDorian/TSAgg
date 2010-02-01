@@ -2,7 +2,7 @@
 \alias{monthsAgg}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Monthly aggregation function
-%%  ~~function to do ... ~~
+
 }
 \description{This function allows for the aggregation of non-continuos time series data into months. It allows for the multiple months to be specified. The aggregation method is also allowed to be set by the user.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -15,17 +15,17 @@ monthsAgg(data, process, multiple = NULL, na.rm = F)
   \item{data}{ A \code{\link{timeSeries}} formatted dataset.
 %%     ~~Describe \code{data} here~~
 }
-  \item{process}{ An aggregation method. See \code{\link{aggregation}}.
+  \item{process}{ An aggregation method. See \code{\link{aggregate}}.
 %%     ~~Describe \code{process} here~~
 }
-  \item{multiple}{ An integer specifying the aggregation block.
+  \item{multiple}{ An integer specifying the aggregation block. Default is multiple=NULL.
 %%     ~~Describe \code{multiple} here~~
 }
-  \item{na.rm}{ ...
+  \item{na.rm}{ Default is na.rm=F
 %%     ~~Describe \code{na.rm} here~~
 }
 }
-\details{ This function is based on the \code{\link{aggregation}} method. It is designed to simplify the process of aggregating non-continuos data.
+\details{ This function is based on the \code{\link{aggregate}} method. It is designed to simplify the process of aggregating non-continuos data.
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{ Returns a data.frame with dates formatted as \code{\link{as.POSIXlt}} and aggregated data.
@@ -47,16 +47,24 @@ monthsAgg(data, process, multiple = NULL, na.rm = F)
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{  \code{\link{aggregation}}
+\seealso{  \code{\link{aggregate}}
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+##Load the data
+data(foo)
+##Format the data using the timeSeries function.
+foo.ts <- timeSeries(foo[,1],"\%d/\%m/\%Y   \%H:\%M",foo[,3])
+##Aggregate the data into 6 month blocks using mins
+min.month <- monthsAgg(foo.ts,min,6)
+##Aggregate the data into 6 days blocks using max
+max.month <- monthsAgg(foo.ts,max,6)
+##Aggregate the data into 6 days blocks using max
+mean.month <- monthsAgg(foo.ts,mean,6)
+#Create a plot of the results
+ymin=min(min.month$data);ymax=max(max.month$data)
+plot(mean.month,ylim=c(ymin,ymax))
+lines(min.month,type="l",lty=3,col="red")
+lines(max.month,type="l",lty=3,col="blue")
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

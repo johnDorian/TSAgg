@@ -1,8 +1,7 @@
 \name{timeSeries}
 \alias{timeSeries}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ Current (temporary) method for creating the prefred data.frame structure for the TSAgg package.
-%%  ~~function to do ... ~~
+\title{ Current (temporary) method for creating the preferred data.frame structure for the TSAgg package.
 }
 \description{ This function is required to organise the data into the required structure for all functions of the package TSAgg.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
@@ -48,13 +47,15 @@ timeSeries(dates, dateformat, data = NULL)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+#Load the dataset foo:
+data(foo)
+#Look at the dataset foo for the date string format:
+head(foo)
+foo.ts <- timeSeries(foo[,1],"\%d/\%m/\%Y   \%H:\%M",foo[,3])
+#Try entering data manually into the function:
+one.date <- timeSeries("08-09-30","\%y-\%m-\%d",4)
+#Look at the results:
+one.date
 
-## The function is currently defined as
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

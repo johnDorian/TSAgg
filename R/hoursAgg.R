@@ -5,7 +5,8 @@ hoursAgg<-
 			na.rm=FALSE){
 
 		
-          if(!is.null(multiple)&&multiple>1){
+          if(!is.null(multiple)){
+          	if(multiple>1){
             dates <- as.POSIXct(strptime(paste(data$hour,data$day,data$month,data$year),"%H %d %m %Y"))
             ## Get the gep between each hour.
             gap <- as.numeric(difftime(dates[2:length(dates)],dates[1:length(dates)-1]),units="hours")
@@ -21,9 +22,10 @@ hoursAgg<-
             }
             temp <- timeSeries(data$dates,"%Y-%m-%d %H:%M:%S",data$data)
             data <- temp
-          }else{
-            data <- data
-          }
+            }else{
+            	data <- data
+            	        
+          }}
           
           result<-aggregate(list(data=data$data),list(day=data$day,month=data$month,year=data$year,hour=data$hour),process,na.rm=na.rm)
          data <- data.frame(Date=strptime(paste(00,result$hour,result$day,result$month,result$year),"%M %H %d %m %Y"),data=result$data)
