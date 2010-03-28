@@ -37,7 +37,7 @@ timeSeries(dates, dateformat, data = NULL)
 \author{ Jason Lessels <jason.lessels@sydney.edu.au>
 %%  ~~who you are~~
 }
-\note{ Temporally function creates a data.frame. In time this will be modified as a class of the package TSAgg. Currently the function also handles more than one data column, unfortunately the corresponding functions of the package TSAgg do not.
+\note{ 
 %%  ~~further notes~~
 }
 

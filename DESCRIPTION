@@ -1,7 +1,7 @@
 Package: TSAgg
 Type: Time Series Aggregation
-Version: 0.1-4
-Date: 2010-1-2
+Version: 0.1-5
+Date: 2010-3-28
 Title: Time formatting made under R 2.10.0
 Description: Time series aggregation made under R 2.10.0
 LazyLoad: yes

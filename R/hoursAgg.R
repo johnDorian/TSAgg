@@ -17,19 +17,20 @@ hoursAgg<-
             cum.gap <- c(data$hour[1],cum.gap)
             data$hour<-cum.gap-cum.gap%%multiple-cum.gap[1]
             #Convert the above hours from date[1] to dates.
-            for(i in 1:length(data[,1])){
-              data$dates[i] <- data$dates[1]+data$hour[i]*60*60
-            }
-            temp <- timeSeries(data$dates,"%Y-%m-%d %H:%M:%S",data$data)
+           data$dates <- data$dates[1]+data$hour*60*60
+           
+             temp <- timeSeries(data$dates,"%Y-%m-%d %H:%M:%S",data[,8:length(data)])
             data <- temp
             }else{
             	data <- data
             	        
           }}
           
-          result<-aggregate(list(data=data$data),list(day=data$day,month=data$month,year=data$year,hour=data$hour),process,na.rm=na.rm)
-         data <- data.frame(Date=strptime(paste(00,result$hour,result$day,result$month,result$year),"%M %H %d %m %Y"),data=result$data)
-        sorted <- data[order(data$Date),]
-        final <- data.frame(Date=as.POSIXlt(sorted$Date),Data=sorted$data)
+          result<-aggregate(data[,8:length(data)],list(day=data$day,month=data$month,year=data$year,hour=data$hour),process,na.rm=na.rm)
+
+         data2 <- data.frame(Date=strptime(paste(00,result$hour,result$day,result$month,result$year),"%M %H %d %m %Y"),result[,5:length(result)])
+        sorted <- data2[order(data2$Date),]
+        final <- data.frame(Date=as.POSIXlt(sorted$Date),sorted[,2:length(sorted)])
+        names(final)<-c("Date",names(data[8:length(data)]))
           return(final)
         }
