@@ -1,8 +1,7 @@
 \name{timeSeries}
 \alias{timeSeries}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ Current (temporary) method for creating the preferred data.frame structure for the TSAgg package.
-}
+\title{ Function to create a TSAgg formatted object.}
 \description{ This function is required to organise the data into the required structure for all functions of the package TSAgg.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
