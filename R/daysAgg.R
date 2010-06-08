@@ -1,4 +1,4 @@
-daysAgg<-function(data,process,multiple=NULL,na.rm=F){
+daysAgg<-function(data,process,multiple=NULL,na.rm=FALSE){
 		if(is.null(multiple)){
 		multiple=1
 	}
@@ -16,12 +16,15 @@ daysAgg<-function(data,process,multiple=NULL,na.rm=F){
 	days=paste(multiple,"days")
 	all.dates<-seq.Date(as.Date(data$date[1]),as.Date(data$date[length(data[,1])]),by="day")
 	dates<-data.frame(date=all.dates)
-	test<-merge(dates,data,by="date",all.x=T)
+	test<-merge(dates,data,by="date",all.x=TRUE)
 	test$date<-rep(seq.Date(as.Date(data$date[1]),as.Date(data$date[length(data[,1])]),by=days),each=multiple,length=length(all.dates))
 #	data<-subset(test,!is.na(count)) 
-	results<-aggregate(list(test[2:length(test)]),list(date=test$date),process,na.rm=T)
-	results<-subset(results,count!=0)
+	results<-aggregate(list(test[2:length(test)]),list(date=test$date),process,na.rm=TRUE)
+	results<-subset(results,results$count!=0)
 	results<-results[,-length(results)]
 	names(results)<-c("Date",names(temp[8:length(temp)]))
 	return(results)
 }
+
+
+

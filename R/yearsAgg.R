@@ -1,8 +1,8 @@
 yearsAgg<-function(data,
 		    process,
 	    	    multiple=NULL,
-		    na.rm=F,
-		    from.first.obs=T){
+		    na.rm=FALSE,
+		    from.first.obs=TRUE){
 	
 	if(is.null(multiple)){
 		multiple=1
@@ -10,9 +10,9 @@ yearsAgg<-function(data,
 	#Test the last gap to make sure it's complete.
 	start<-min(data$year)
 	end<-max(data$year)
-	if((end-start)%%multiple!=0)warning("Last Gap does not contain ",multiple," years. There is only ",((end-start)%%multiple)," year(s) in this gap.",call.=F)
+	if((end-start)%%multiple!=0)warning("Last Gap does not contain ",multiple," years. There is only ",((end-start)%%multiple)," year(s) in this gap.",call.=FALSE)
 	
-	if(from.first.obs==T){
+	if(from.first.obs==TRUE){
 	years<-(as.numeric(difftime(data$date,data$date[1],units=c("hours")))-as.numeric(difftime(data$date,data$date[1],units=c("hours")))%%8765.81277)/8765.81277
 	#8765.81277 hours in each year.
 	years.again<-years-years%%multiple

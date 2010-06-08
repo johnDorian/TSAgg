@@ -1,12 +1,10 @@
 Package: TSAgg
-Type: Time Series Aggregation
-Version: 0.1-5
-Date: 2010-3-28
-Title: Time formatting made under R 2.10.0
-Description: Time series aggregation made under R 2.10.0
-LazyLoad: yes
-LazyData: yes
-Author: Jason Lessels. FAFNR. The University of Sydney, Australia.
-Maintainer: JASON LESSELS <jason.lessels@sydney.edu.au>
+Type: Package
+Version: 0.1-6
+Date: 2010-06-08
+Title: Time series Aggregation
+Description: Time series aggregation for incomplete time series data.
+Author: JS Lessels. Faculty of Agriculture, Food and Natural Resources. The University of Sydney, Australia.
+Maintainer: Jason Scott Lessels <jason.lessels@sydney.edu.au>
 License: GPL (>= 2)
 

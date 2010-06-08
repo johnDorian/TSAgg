@@ -13,36 +13,29 @@ timeSeries(dates, dateformat, data = NULL)
   \item{dates}{ A vector, or data.frame of one column of dates. 
 %%     ~~Describe \code{dates} here~~
 }
-  \item{dateformat}{ A string indicating the format of the dates (e.g. "%d/%m%y"). See also \code{\link{strptime}}
+  \item{dateformat}{ A string indicating the format of the dates (e.g. "%d/%m%y"). See also \code{strptime}
 %%     ~~Describe \code{dateformat} here~~
 }
   \item{data}{ A vector or data.frame of data. Must be the same length as dates column.
 %%     ~~Describe \code{data} here~~
 }
 }
-\details{ 
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{ Returns a data.frame with dates formatted as \code{\link{as.POSIXlt}} and data.
+
+\value{ Returns a data.frame with dates formatted as \code{as.POSIXlt} and data.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{ Jason Lessels <jason.lessels@sydney.edu.au>
 %%  ~~who you are~~
-}
-\note{ 
-%%  ~~further notes~~
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{ \code{\link{strptime}}
+\seealso{ \code{strptime}
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{

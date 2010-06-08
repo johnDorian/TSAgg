@@ -1,7 +1,7 @@
 monthsAgg<-function(data,
 		    process,
 	    	    multiple=NULL,
-		    na.rm=F){
+		    na.rm=FALSE){
 	
 	if(is.null(multiple)){
 		multiple=1
