@@ -1,0 +1,608 @@
+
+  
+  
+
+  
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Data/foo.na.RData at master from johnDorian's TSAgg - GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.com/fluidicon.png" title="GitHub" />
+
+    <link href="http://assets2.github.com/stylesheets/bundle_common.css?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://assets2.github.com/stylesheets/bundle_github.css?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" media="screen" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" charset="utf-8">
+      var GitHub = {}
+      var github_user = 'johnDorian'
+      
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://assets0.github.com/javascripts/bundle_common.js?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" type="text/javascript"></script>
+<script src="http://assets1.github.com/javascripts/bundle_github.js?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" type="text/javascript"></script>
+
+        <script type="text/javascript" charset="utf-8">
+      GitHub.spy({
+        repo: "johnDorian/TSAgg"
+      })
+    </script>
+
+    
+  
+    
+  
+
+  <link href="http://github.com/johnDorian/TSAgg/commits/master.atom" rel="alternate" title="Recent Commits to TSAgg:master" type="application/atom+xml" />
+
+        <meta name="description" content="An R package to agrregate temporal data" />
+    <script type="text/javascript">
+      GitHub.nameWithOwner = GitHub.nameWithOwner || "johnDorian/TSAgg";
+      GitHub.currentRef = "master";
+    </script>
+  
+
+            <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3769691-2']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+
+  </head>
+
+  
+
+  <body>
+    
+
+    
+      <script type="text/javascript">
+        var _kmq = _kmq || [];
+        (function(){function _kms(u,d){if(navigator.appName.indexOf("Microsoft")==0 && d)document.write("<scr"+"ipt defer='defer' async='true' src='"+u+"'></scr"+"ipt>");else{var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);}}_kms('https://i.kissmetrics.com/i.js');_kms('http'+('https:'==document.location.protocol ? 's://s3.amazonaws.com/' : '://')+'scripts.kissmetrics.com/406e8bf3a2b8846ead55afb3cfaf6664523e3a54.1.js',1);})();
+      </script>
+    
+
+    
+
+    
+
+    <div class="subnavd" id="main">
+      <div id="header" class="pageheaded">
+        <div class="site">
+          <div class="logo">
+            <a href="https://github.com/"><img src="/images/modules/header/logov3.png" alt="github" /></a>
+          </div>
+          
+            
+
+
+
+
+
+
+  
+    <div class="userbox">
+      <div class="inner">
+        <div class="avatarname">
+          <a href="http://github.com/johnDorian"><img src="https://secure.gravatar.com/avatar/986edf614d57516efa2465a9dfe9cf30?s=140&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="" width="20" height="20"  /></a>
+          <a href="http://github.com/johnDorian" class="name">johnDorian</a>
+
+          
+          
+        </div>
+        <ul class="usernav">
+          <li><a href="https://github.com/">Dashboard</a></li>
+          <li>
+            
+            <a href="https://github.com/inbox">Inbox</a>
+            <a href="https://github.com/inbox" class="unread_count ">0</a>
+          </li>
+          <li><a href="https://github.com/account">Account Settings</a></li>
+                    <li><a href="/logout">Log Out</a></li>
+        </ul>
+      </div>
+    </div><!-- /.userbox -->
+  
+
+
+          
+          <div class="topsearch">
+  
+    <form action="/search" id="top_search_form" method="get">
+      <a href="/search" class="advanced-search tooltipped downwards" title="Advanced Search">Advanced Search</a>
+      <input type="search" class="search my_repos_autocompleter" name="q" results="5" placeholder="Search&hellip;" /> <input type="submit" value="Search" class="button" />
+      <input type="hidden" name="type" value="Everything" />
+      <input type="hidden" name="repo" value="" />
+      <input type="hidden" name="langOverride" value="" />
+      <input type="hidden" name="start_value" value="1" />
+    </form>
+  
+  
+    <ul class="nav">
+      <li><a href="/explore">Explore GitHub</a></li>
+      <li><a href="http://gist.github.com">Gist</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="http://help.github.com">Help</a></li>
+    </ul>
+  
+</div>
+
+        </div>
+      </div>
+
+      
+      
+        
+    <div class="site">
+      <div class="pagehead repohead vis-public   ">
+        <h1>
+          <a href="/johnDorian">johnDorian</a> / <strong><a href="http://github.com/johnDorian/TSAgg">TSAgg</a></strong>
+          
+          
+        </h1>
+
+        
+    <ul class="actions">
+      
+
+      
+        <li class="for-owner" style="display:none"><a href="https://github.com/johnDorian/TSAgg/edit" class="minibutton btn-admin "><span><span class="icon"></span>Admin</span></a></li>
+        <li>
+          <a href="/johnDorian/TSAgg/toggle_watch" class="minibutton btn-watch " id="watch_button" style="display:none"><span><span class="icon"></span>Watch</span></a>
+          <a href="/johnDorian/TSAgg/toggle_watch" class="minibutton btn-watch " id="unwatch_button" style="display:none"><span><span class="icon"></span>Unwatch</span></a>
+        </li>
+        
+          
+            <li class="for-notforked" style="display:none"><a href="/johnDorian/TSAgg/fork" class="minibutton btn-fork " id="fork_button" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', '2fd100a3f05c514b0719582924db31c0320f5368'); f.appendChild(s);f.submit();return false;"><span><span class="icon"></span>Fork</span></a></li>
+            <li class="for-hasfork" style="display:none"><a href="#" class="minibutton btn-fork " id="your_fork_button"><span><span class="icon"></span>Your Fork</span></a></li>
+          
+
+          
+          <li id="pull_request_item" class='ospr' style="display:none"><a href="/johnDorian/TSAgg/pull_request/" class="minibutton btn-pull-request "><span><span class="icon"></span>Pull Request</span></a></li>
+          
+
+          <li><a href="#" class="minibutton btn-download " id="download_button"><span><span class="icon"></span>Download Source</span></a></li>
+        
+      
+      
+      <li class="repostats">
+        <ul class="repo-stats">
+          <li class="watchers"><a href="/johnDorian/TSAgg/watchers" title="Watchers" class="tooltipped downwards">1</a></li>
+          <li class="forks"><a href="/johnDorian/TSAgg/network" title="Forks" class="tooltipped downwards">1</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+        
+  <ul class="tabs">
+    <li><a href="http://github.com/johnDorian/TSAgg/tree/master" class="selected" highlight="repo_source">Source</a></li>
+    <li><a href="http://github.com/johnDorian/TSAgg/commits/master" highlight="repo_commits">Commits</a></li>
+
+    
+    <li><a href="/johnDorian/TSAgg/network" highlight="repo_network">Network (1)</a></li>
+
+    
+      <li><a href="/johnDorian/TSAgg/forkqueue" highlight="repo_fork_queue">Fork Queue</a></li>
+    
+
+    
+      
+      <li><a href="/johnDorian/TSAgg/issues" highlight="issues">Issues (0)</a></li>
+    
+
+    
+      
+      <li><a href="/johnDorian/TSAgg/downloads">Downloads (0)</a></li>
+    
+
+    
+      
+      <li><a href="http://wiki.github.com/johnDorian/TSAgg/">Wiki (1)</a></li>
+    
+
+    <li><a href="/johnDorian/TSAgg/graphs" highlight="repo_graphs">Graphs</a></li>
+
+    <li class="contextswitch nochoices">
+      <span class="toggle leftwards" >
+        <em>Branch:</em>
+        <code>master</code>
+      </span>
+    </li>
+  </ul>
+
+  <div style="display:none" id="pl-description"><p><em class="placeholder">click here to add a description</em></p></div>
+  <div style="display:none" id="pl-homepage"><p><em class="placeholder">click here to add a homepage</em></p></div>
+
+  <div class="subnav-bar">
+  
+  <ul>
+    <li>
+      <a href="#" class="dropdown">Switch Branches (1)</a>
+      <ul>
+        
+          
+            <li><strong>master &#x2713;</strong></li>
+            
+      </ul>
+    </li>
+    <li>
+      <a href="#" class="dropdown defunct">Switch Tags (0)</a>
+      
+    </li>
+    <li>
+    
+    <a href="/johnDorian/TSAgg/branches" class="manage">Branch List</a>
+    
+    </li>
+  </ul>
+</div>
+
+  
+  
+  
+  
+  
+
+
+        
+    <div id="repo_details" class="metabox clearfix">
+      <div id="repo_details_loader" class="metabox-loader" style="display:none">Sending Request&hellip;</div>
+
+      
+
+      <div id="repository_description" rel="repository_description_edit">
+        
+          <p>An R package to agrregate temporal data
+            <span id="read_more" style="display:none">&mdash; <a href="#readme">Read more</a></span>
+          </p>
+        
+      </div>
+      <div id="repository_description_edit" style="display:none;" class="inline-edit">
+        <form action="/johnDorian/TSAgg/edit/update" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="2fd100a3f05c514b0719582924db31c0320f5368" /></div>
+          <input type="hidden" name="field" value="repository_description">
+          <input type="text" class="textfield" name="value" value="An R package to agrregate temporal data">
+          <div class="form-actions">
+            <button class="minibutton"><span>Save</span></button> &nbsp; <a href="#" class="cancel">Cancel</a>
+          </div>
+        </form>
+      </div>
+
+      
+      <div class="repository-homepage" id="repository_homepage" rel="repository_homepage_edit">
+        <p><a href="http://" rel="nofollow"></a></p>
+      </div>
+      <div id="repository_homepage_edit" style="display:none;" class="inline-edit">
+        <form action="/johnDorian/TSAgg/edit/update" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="2fd100a3f05c514b0719582924db31c0320f5368" /></div>
+          <input type="hidden" name="field" value="repository_homepage">
+          <input type="text" class="textfield" name="value" value="">
+          <div class="form-actions">
+            <button class="minibutton"><span>Save</span></button> &nbsp; <a href="#" class="cancel">Cancel</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="rule "></div>
+
+      <div id="url_box" class="url-box">
+        <ul class="clone-urls">
+          
+            
+              <li id="private_clone_url"><a href="git@github.com:johnDorian/TSAgg.git" data-permissions="Read+Write">SSH</a></li>
+            
+            <li id="http_clone_url"><a href="https://johnDorian@github.com/johnDorian/TSAgg.git" data-permissions="Read+Write">HTTP</a></li>
+            <li id="public_clone_url"><a href="git://github.com/johnDorian/TSAgg.git" data-permissions="Read-Only">Git Read-Only</a></li>
+          
+        </ul>
+        <input type="text" spellcheck="false" id="url_field" class="url-field" />
+              <span style="display:none" id="url_box_clippy"></span>
+      <span id="clippy_tooltip_url_box_clippy" class="clippy-tooltip tooltipped" title="copy to clipboard">
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="14"
+              height="14"
+              class="clippy"
+              id="clippy" >
+      <param name="movie" value="http://assets0.github.com/flash/clippy.swf?v5"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="id=url_box_clippy&amp;copied=&amp;copyto=">
+      <param name="bgcolor" value="#FFFFFF">
+      <param name="wmode" value="opaque">
+      <embed src="http://assets0.github.com/flash/clippy.swf?v5"
+             width="14"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="id=url_box_clippy&amp;copied=&amp;copyto="
+             bgcolor="#FFFFFF"
+             wmode="opaque"
+      />
+      </object>
+      </span>
+
+        <p id="url_description">This URL has <strong>Read+Write</strong> access</p>
+      </div>
+    </div>
+
+
+        
+
+      </div><!-- /.pagehead -->
+
+      
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  GitHub.currentCommitRef = "master"
+  GitHub.currentRepoOwner = "johnDorian"
+  GitHub.currentRepo = "TSAgg"
+  GitHub.downloadRepo = '/johnDorian/TSAgg/archives/master'
+
+  
+    GitHub.hasWriteAccess = true
+    GitHub.hasAdminAccess = true
+    GitHub.watchingRepo = true
+    GitHub.ignoredRepo = false
+    GitHub.hasForkOfRepo = null
+    GitHub.hasForked = true
+  
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+  <div id="commit">
+    <div class="group">
+        
+  <div class="envelope commit">
+    <div class="human">
+      
+        <div class="message"><pre><a href="/johnDorian/TSAgg/commit/bb75266298b31e12b5500d419c191b84a9c66b2b">More refining</a> </pre></div>
+      
+
+      <div class="actor">
+        <div class="gravatar">
+          
+          <img src="http://www.gravatar.com/avatar/986edf614d57516efa2465a9dfe9cf30?s=140&d=http%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="" width="30" height="30"  />
+        </div>
+        <div class="name"><a href="/johnDorian">johnDorian</a> <span>(author)</span></div>
+        <div class="date">
+          <abbr class="relatize" title="2010-06-08 16:18:49">Tue Jun 08 16:18:49 -0700 2010</abbr>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="machine">
+      <span>c</span>ommit&nbsp;&nbsp;<a href="/johnDorian/TSAgg/commit/bb75266298b31e12b5500d419c191b84a9c66b2b" hotkey="c">bb75266298b31e12b550</a><br />
+      <span>t</span>ree&nbsp;&nbsp;&nbsp;&nbsp;<a href="/johnDorian/TSAgg/tree/bb75266298b31e12b5500d419c191b84a9c66b2b" hotkey="t">f27b738c5f8a8c4a6e57</a><br />
+      
+        <span>p</span>arent&nbsp;
+        
+        <a href="/johnDorian/TSAgg/tree/4a51b81ab9ddf907292685bb4efba17fa178b6d6" hotkey="p">4a51b81ab9ddf9072926</a>
+      
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+
+  
+    <div id="path">
+      <b><a href="/johnDorian/TSAgg/tree/master">TSAgg</a></b> / <a href="/johnDorian/TSAgg/tree/master/Data">Data</a> / foo.na.RData       <span style="display:none" id="clippy_706">Data/foo.na.RData</span>
+      
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="110"
+              height="14"
+              class="clippy"
+              id="clippy" >
+      <param name="movie" value="http://assets0.github.com/flash/clippy.swf?v5"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="id=clippy_706&amp;copied=copied!&amp;copyto=copy to clipboard">
+      <param name="bgcolor" value="#FFFFFF">
+      <param name="wmode" value="opaque">
+      <embed src="http://assets0.github.com/flash/clippy.swf?v5"
+             width="110"
+             height="14"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="id=clippy_706&amp;copied=copied!&amp;copyto=copy to clipboard"
+             bgcolor="#FFFFFF"
+             wmode="opaque"
+      />
+      </object>
+      
+
+    </div>
+
+    <div id="files">
+      <div class="file">
+        <div class="meta">
+          <div class="info">
+            <span class="icon"><img alt="Txt" height="16" src="http://assets1.github.com/images/icons/txt.png?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" width="16" /></span>
+            <span class="mode" title="File Mode">100644</span>
+            
+              <span>50 lines (50 sloc)</span>
+            
+            <span>17.591 kb</span>
+          </div>
+          <ul class="actions">
+            
+              <li><a id="file-edit-link" href="#" rel="/johnDorian/TSAgg/file-edit/__ref__/Data/foo.na.RData">edit</a></li>
+            
+            <li><a href="/johnDorian/TSAgg/raw/master/Data/foo.na.RData" id="raw-url">raw</a></li>
+            
+              <li><a href="/johnDorian/TSAgg/blame/master/Data/foo.na.RData">blame</a></li>
+            
+            <li><a href="/johnDorian/TSAgg/commits/master/Data/foo.na.RData">history</a></li>
+          </ul>
+        </div>
+        
+  <div class="data syntax type-plain">
+    
+      <table cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <pre class="line_numbers"><span id="LID1" rel="#L1">1</span>
+<span id="LID2" rel="#L2">2</span>
+<span id="LID3" rel="#L3">3</span>
+<span id="LID4" rel="#L4">4</span>
+<span id="LID5" rel="#L5">5</span>
+<span id="LID6" rel="#L6">6</span>
+<span id="LID7" rel="#L7">7</span>
+<span id="LID8" rel="#L8">8</span>
+<span id="LID9" rel="#L9">9</span>
+<span id="LID10" rel="#L10">10</span>
+<span id="LID11" rel="#L11">11</span>
+<span id="LID12" rel="#L12">12</span>
+<span id="LID13" rel="#L13">13</span>
+<span id="LID14" rel="#L14">14</span>
+<span id="LID15" rel="#L15">15</span>
+<span id="LID16" rel="#L16">16</span>
+<span id="LID17" rel="#L17">17</span>
+<span id="LID18" rel="#L18">18</span>
+<span id="LID19" rel="#L19">19</span>
+<span id="LID20" rel="#L20">20</span>
+<span id="LID21" rel="#L21">21</span>
+<span id="LID22" rel="#L22">22</span>
+<span id="LID23" rel="#L23">23</span>
+<span id="LID24" rel="#L24">24</span>
+<span id="LID25" rel="#L25">25</span>
+<span id="LID26" rel="#L26">26</span>
+<span id="LID27" rel="#L27">27</span>
+<span id="LID28" rel="#L28">28</span>
+<span id="LID29" rel="#L29">29</span>
+<span id="LID30" rel="#L30">30</span>
+<span id="LID31" rel="#L31">31</span>
+<span id="LID32" rel="#L32">32</span>
+<span id="LID33" rel="#L33">33</span>
+<span id="LID34" rel="#L34">34</span>
+<span id="LID35" rel="#L35">35</span>
+<span id="LID36" rel="#L36">36</span>
+<span id="LID37" rel="#L37">37</span>
+<span id="LID38" rel="#L38">38</span>
+<span id="LID39" rel="#L39">39</span>
+<span id="LID40" rel="#L40">40</span>
+<span id="LID41" rel="#L41">41</span>
+<span id="LID42" rel="#L42">42</span>
+<span id="LID43" rel="#L43">43</span>
+<span id="LID44" rel="#L44">44</span>
+<span id="LID45" rel="#L45">45</span>
+<span id="LID46" rel="#L46">46</span>
+<span id="LID47" rel="#L47">47</span>
+<span id="LID48" rel="#L48">48</span>
+<span id="LID49" rel="#L49">49</span>
+<span id="LID50" rel="#L50">50</span>
+</pre>
+          </td>
+          <td width="100%">
+            
+              <div class="highlight"><pre><div class='line' id='LC1'>‹      …]w€Å÷ß†ôãÞ/õŽ&quot;\6ÙMP‡&amp;HoÒTà@ªô¦(Jïª H¯J‘.‚t]:(ù}ö.ÉÎîÎþ¾¼KòÉìÌ›7ï}Þ›É&amp;×°j39[³lÇ	œ€AÄSIÀ’òRûîÝËvKã81^ám1'Çej‡¦Ñ²	NÆc3¼~ï­B›'x&lt;Ç¯ðø*ËAÊBÞC›£h{ÏëC@Ð‡€k¤/ 3ñü%\³}ÖÃ{I?ñz?Äc{Œ+A2áõ´ÑÇÞ„çð^×Ÿ€\†\æ‡¼þàõ8&lt;/çËðíè#5Çµ“ßAŸâ0®å–@ÞA›ãhó;;âñ&lt;&amp;Bjàù&lt;NÇ#æÁy3lÁUÇcÂ{·ð^&lt;Š~wA:á½5xüx+¼_¯Çâù,&lt;Ç|¤½hýÝ†ñø^WF}Eúã5lÂM„à=nd(DÇt›Ì‡ n6äKÈÈ\æÌAON×ñgÈAÈ!ÈaÈ/g‹ËëžCþƒ¼Àk‚¾yè.=ÀØw Ç&gt;¼÷=žc×J§ð&gt;p	sçF Çú</div><div class='line' id='LC2'>°»pr‚÷…Ó3»½Ÿ‡G{¬½ðä_ôWRRR»IuÑïx¼µ&gt;‡Ì ÞøUŒ{ïåÂó·!X'é]HKˆn¿©iøƒ›I“ S ŸA¶B¶Cv@à;æ$ý Ù¾Ü›k5Æª&quot;üO„ŠðQ&gt;*bDô%¢/ú‰ºÏacˆ[Äº‹˜—¨Ïë6D·æ/bÎ&quot;æ,ù É|SÚ‰1óC</div><div class='line' id='LC3'>@`6à`® ¤¶á`q#&gt;+n†@oz‹ºÞð©*äuT‚Tè&gt;¥ûl[âMBœJºýàüE‚¯Hð	¾&quot;Á‡$¬¯´cE úúC~T†ˆ¼wð%¾$þŠ×ù ÐO‚~ô— ¿¤ëüd dd0äcÈ È'O!°‡µá;Ö•ƒÍ8Ø“ƒ=9¬‡9q?Bt» n8¬‡µá°fÖŒƒ}ypˆ;ð`'¾3ä}æÃÃ7yÝ×dÈJè™ûH5_ˆz,·ˆn‹Ñø»8rÅ&quot;C®Cà£â5èš•—!:gbL~t×c¥ãÒÀÐ— Çü‹tZåð¦€ØŸâR@\Šn|G„Ïˆ% àDÑñ@tþïŠˆñ-øPl</div><div class='line' id='LC4'>·‰ˆQç´•À¡Ò_ô/a,&gt;3!ö%=Î1–„±$ _âàK\EˆÎÝ¯AàcâŒq­!ÈbN&amp;®ÌAçE=n /=¾œî+»(9L,ÅÜaW}‹ðú[&lt;Â'ØI€ÍØLÈÁõ‚—ˆGñ(Ô„Ô‚Ô† Nø€ z@zBº@ºBºAºCà_|K€ß	ð³Lº‘ãò‡¸âÀËÜZÈ:ÈzÈÖÓ×kÊ]„\‚èyëÌÃþ&lt;Öƒ‡íyØžÇZð°¯ Žú`˜›¨ë8B*ÞGüóº]±Ö&lt;ryñ˜ãá#¼î˜39óðAsä1Gsä1G&gt;ÉÃ'yä¶àW&lt;bŒGŒñÈ&lt;bŒGŒñˆ1ãò‹!ÈsürÈ</div><div class='line' id='LC5'>rœÆë6‡ä: €¸€}xØ€‡x¬%|ÌÃN&lt;ì#d†ä€ Ï	Ð_ÈAU^*d‡À7ð Ý=ßÂø ~t&gt;ïK½ð\!è½!z¿à2AÏ+ˆ{±.@:ÐAÀúXAÏÕˆw~#`m¬‡€ºBÐó2âG€_ðk¾,‚Dè&amp;B7Q¯QôœŽyŠz=9ˆà^±D¯QÀ#&quot;xX,	)Am êþŒ5aœ)Â×Eøº¨×=m àNqd!u¤û</div><div class='line' id='LC6'>æÇ#¿ŠÈ·&quot;8W„ï‰ð=QÏùðM¾)Â'ÅEÝÇ±.&quot;ÖEÄ‰Xë&quot;b]$ØQ‚/Hð	¾ ÁÞì-ÁÞ’žïQ¿IaH¢×;ð7I…èü</div><div class='line' id='LC7'>ŽöEeP†Hð=ù“w</div><div class='line' id='LC8'>zþ¿KÈ]&lt;ò:„ÏÔ &lt;bŒGm!!WszŸ¢‚ùJ½£ÀÉâþ¨ ÞáÀ{&lt;¸G@®ôüª¯E÷¨Àÿ„ýQA[I×I-=6GE÷ap… ½8änQT`#nT†Hç3„gˆØ‚¸Q#ˆ¨WD½6AŒ‹È-&quot;r‹¨×¨;Dð›~Áo&quot;æ%ÂEð­¨ó Ö^‚/HzNÑëAø?à#&lt;tá“¢&gt;WÌIDþ‘›Dä&amp;	~.!&gt;%Ä§—›’^&quot;6%Ä®„µ—0w	œ$Á$ø€à|CÒ}G¯1GIŸ#Öƒ_pðöâœ^èó…Ÿsðsµ‡úŠÓkCÄXâQð¨xÔ&lt;r0Ì#/óÈË&lt;Ö‚'ñ¨[xð« t=Á¡êh	&quot;7¤¾~ð€„ZSB—ô:Hà	þ)éþ	ß• Ÿý$Ô‘êHI¯õÚþ/¡¾Ì¤ï‹Ü¦u_ÅúJX_I_CäOI÷/ÔÙ¸_B.•À‰’^û#Þ%Ä»Î‘À¸@Hà	5%‡ØåP§sÈ¡œ^/ë5©^³è9u‡š‹Ãzsºï¢àt¿×÷ÈC|9Jt&gt;FÌððo~Ä#¦xèÉ#žxÄŸfÄ=_åÁ	&lt;8ŸäþÇÃçxøŸãõ8Ósò¯Ç¸ŠGîà‘;x½v…ßzŒ‚wøž€&lt;&quot; È#r»€9</div><div class='line' id='LC9'>Èã‚¾GÀØÆô}r¬ nÀEì'À–l)ŒÀ–‚žGõ:\¯%à[ÖLÀš	:×ÃÏø™ ?ô=ÖJÀZ	XCk(`Eø†¨ïI£Dð³á&quot;|ADÌ‹z^ƒŸˆðQßƒa=Dø£õÚû$õ¿ˆº_„ßJÈ‘’^s`~üS‚J¨)%äJ¼Æéû%=‚ûyÄ˜â‘xÄxão¼oº/ õÀ&lt;8=¶°Îl#éyQç\à&lt;ê]&lt;ÅÁ&lt;âŒGþå1ºóˆ91Ç#yÄ#ƒG[œÆÃV&lt;j`u1?~çá3&lt;8‚Gðà^÷ŒÉÃ·x}ƒš_X‘!&quot;¸_DÞõ9PDÞ‘÷D}ï†&lt;,ÂïE¬—ˆ8‘ŸEp´þ&quot;r‡ÿá&quot;â[Ô÷¸z}¦×Æð3N¯áõýì+é~ ¾æôÚCßèû4ÿô=µžwü?û</div><div class='line' id='LC10'>—ÿ³³%ý@÷Ô“ÖXÐk~&lt;ç±O´ô\¦s’žõz_Ï¯zÓÇÕ÷</div><div class='line' id='LC11'>úþMÄ+¯Ç8âÓëEØ]ÔŸÃ~œ^7è¼Šö‚¾—Ðk˜Ñz1ŒçúžD_Ô”ø9½HÖÏ	78WÔkTp¸ ó•¾ßÔ÷¨¯Dð‡¸ž!ë2DzíHëÿ!3áôy€G8ðáÀ#œ^Ó¢çPƒsX+ù‘CmÎÁ~êu&gt;É!®8Äßäà›ü–ƒßrð[NŸ?â›‹¹ë1Žyòà;^ß NôúÜ ÎŠÎàQþ$ÁF&lt;bœGŒóˆq1Î£6ç±ãac&gt;Åc=yÄ,Xæõý&lt;â–‡ýxøõq¨×5èGÔùó‘S$äI?óÑýY·9jV	öæ°&gt;öæ&lt;xŒ×ó'Ö„Ÿñà:\ÇcíxäVsçõspNãÁu|ë¨ÀV&lt;øÇ¼xÌ×ëÄ=uåu[ †áõü‡xá/&lt;âˆGžäÁ¼^&quot;÷	ˆ\#èu9r¤ ÀA8HÐs¡~NŒ'`m½vÁÚXë!ÀÄ¬€9</div><div class='line' id='LC12'>ˆY|(€ûpŸ ŸÇ€ì«ð… .ô}üYÀ:àzŠz½ªç–&gt;ÂÁælÎé¹k%a­¥Ÿ2DDNãõ³)CD§ô¸.½6E¾õºG´áô³!ÄhúFõ-‡ú–Cí«ŸÖñúÙø\Ÿ¨mxÔ¥¼7úyêuþäôsWPŸpàM\É¡-ßâ:G¹…CÞàà+œž‡u_Áx&lt;ÆæÁå&lt;¸œÇØ&lt;Ææõ±¡¯û*ö&lt;b›'òˆ'üÈƒyp#¯×Ì°3[ò°%›ðú&gt;öåõ\…úQ@ìëÇ¼~N…Ú‡Ïó/Ò)cbL€MØD€M‹ô½j &lt;%¢†ÖÏ*E°×Q/‰àQçØ@„DÔk&quot;rŠ_õs%ý&lt;	k!bŸ*îÍ0³€çÖK . ßävAç#ätAÏéúÞ¶ƒ&quot;ÁÖE‚$ØF‚m$ýùoIð9	&gt;'ÿ%Äk&amp;´Ë„6™Ð&amp;“¾×Â½æÖÏ¡›„þ%Ô9’~æ†ÚFÂø’¾Ç†Îêz1Æ!Æ8Ä˜p“³œÜvi×¯]Q3FHG…¤¤è³„@¹T¹œœšª$¥–OM¥Ð 3N</div><div class='line' id='LC13'>”ÄÐ\šÊ†ƒlXeÃ–e¦	1Ñ°¹‹ŽÊú€A¬1a¤»VÊ4MµÚ#¬£aÍe t!Û™¨j ]¤›_7i„jÑG¬ZhLÝâh DuE¡VØp„	Ë¦F2Q•‰jVÓZfHÕÛt4hEÃÖ¶rÔ_Ê§*vT1Ð\¸&gt;5 w¤;ŽÂhj^ÕT=PÐZ†wYát‡±·¬/U@aÀA6¬Zà`ÆV½uÈ6¤b‹ÙDV3Ì‡%èæQcÊtsÃõ‚©,&lt;è€«¸ÆÆé KWÇîÛQ˜¹épÀÛC!‘‚1§¥9«ÃµAª—¬ÇWð×Ã'È6È†5ÌvÞX³M)Àt™)¯p îê¦¾cpú!Ùü.Vk‘gð®ÌÂÃÎ¸â€GØ8¬kU'×,ÍÃÑè€»+,\-/³p9X^6Ù&amp;æî´·¢)àM‡h</div><div class='line' id='LC14'>8DSÀ!š&lt;Ä†Ã,8l[ÁÓ˜áaÀ²L;j€íÖ¬²aÍÒ¹œ‘`¯±r”8:N©.ÇÉªËfØš`)˜ö=£y˜ÝÜêª²ƒ«ÊLW¥»·ëž«lX³À,Ç“Ovp&lt;ÙÁñdÇ“Of;žÌv¼¬šOŽ:žf…3¸-`öGY÷;£leY&lt;ÖY&lt;ÌÂ&lt;ÂÆu3†²a•k8¤Ã!›îQX–-¸b÷ßtÜpH9•î&gt;Ä,Œƒ5lÏ’A–ãÑpˆ‡i7</div><div class='line' id='LC15'>F334…®Þ&lt;c©-†¢›lëPÔŠ![ë¸P+rð€ƒ„&lt; äà!¶„Øb{@(º—IµMÉ¾/K‡£Ž ×Ÿ‚Sð ®:à—e¶:!6¶õÂ`ßn_UÅFí‰°­®Ho®Ú¼7‘‚é¼o4£&quot;’U3Raˆ]´†¢^±-7¡¢ÂÄ&lt;ÂÆáxŠeX–ÁRY&gt;“b6%cp@¦#•Â&lt;ÂÆe?¸Â†#6ØÎ=18hƒå×Ñû¼l±‹Â¦ÅzPèAq …M</div><div class='line' id='LC16'>›6=(¬]g&quot;¨ã®8à6.›Nz”è†Ô’j6ý(ô£8Ðâ@?Šý(ô£°éGaÑO:¬d¸˜fì½Ó;W3Jd&amp;%ÈÂ¡dÀ†§»GÈÞOº{0q˜8¤ÐêÄ÷¤Ši®LîP¸CqàÅ;&lt;È†U6¬™aÆIMbœ1fª¥yœ‚´ŠlRHq` Å&lt;È†U6¬ÙàôülZU5zv¤ê®J™ÝÀe™6Êâ (l?T¢á€©sfÔ«Q¯:D½êõdÃ*ÖX°b›RÁÍj4V-û·dÃþQøGuà•É?t÷!6¶ÀŠmß…í{l5ºQµj”R­£˜½ÎØ²qÅ·z/““Tj£Ê„U6¬Y`ûî&quot;‘‚ò²ÆÂCx˜ƒdØxÐÀiuLG®¬Y`+«¬¬:°²êÀÊª+«lVVÙ¬¬²YY²²jõ%&amp;ûªìKá!v7&amp;6UÙlª²ÙT²©EÅ°Á¦´µ(8Õ:àª®±q3Yxˆ‡-°ýü!</div><div class='line' id='LC17'>Û©=Ì¦ö°µ‡¨=ì@íaj³©=Ì¦ö0›ÚcpÈ6%û!F:¬0¨-%BÇ/À†zš1b395…ð½™¤pÕ¡½ÆÆÍ§aaj7©i˜E…¬³I˜…+x„ëlf«ÐLhÀ6—™°uÌôU„,ÐgvaŸÒp«lX3ÃåfÐjÝXÅ¦ô</div><div class='line' id='LC18'>Ý\f”áø‰³É#ñ`w€MLEÁ¦Ê„ÂeúS</div><div class='line' id='LC19'>WèS‰›yXe·³[k–Ö,B2`aDØ„aF„EéÓ²N|&quot;ÑŸT›*!Fé‰Z–Íh„U%R0]E›Û½%âp¤JáŠaãæ£&lt;È†U6¬±`»3ÆXŠ&amp;©ˆ9FÈ1Â$Aºû[à8×Q|qàºˆ×E¸.âÀudÃ*Öl°Õã°’^šFèæ¬ÓÀHô³jÅkŒú Â®Ö´hð*lXoMñˆÆä×·Ä</div><div class='line' id='LC20'>£› 6ÕilÚÑØü¢Eë ¿jì,˜˜T£!vûCû0—SpSêÑ¢´aÙŸÅàM{%~æRlÍ-(Í=š÷hÜ£9pæÀ=›{46÷hlîÑ¢õš‰}3àÒÀv.L7gÑ€æ@šh4 9Ð€Æ¦M›4êãHó˜Ý#ºGt8èaëaëqÒÝ^›kÌ;­dúãµ …Ê¶ô«£ö{u4vWÅšÊ†ƒlXeÃ6Ý°gÀ!&amp;6£öB&quot;AfÌ$È¬[þd:Q(Ônû8ªXQÆ­Hr´”5³^BìoÍÚ8zÂ K6,³á ±a…ËlMd¶&amp;2[™­‰ÌÖDfkdkdk¢67f¶–M¤2“/¨ÛMx˜¢L</div><div class='line' id='LC21'>×i:ÈèžNÊ¬²aÍ¢+ŸÒxÈ§7.³››Ò)ÙÝ(l8Âê%}õ™n´×H°­\‹ÃéõÊ¦æéçŠ­9k£Ç5Û ŒNÁ¦NãŠaã¦NáA6¬²aÍ«ö*&amp;–£ÇÉf_¢6</div><div class='line' id='LC22'>a®8´°qSJá¦tJ33[kØ^hÐpÐGìÇqØœñ)Ø”ñi\qÀ#lÜ”ñ)œ©¤9ãS°fí™D3c_‘~˜J7ÏÀ#ìæóg$4®:à—e®™&gt;²HW‡q–‡Í›%9%½VMµ)ë1ÉÄ&lt;ÌÆÍ„ ›	«lX³tÎ$ì€a;À&amp;ì€a;À&amp;ì ‹°XØ:›ìsQ8ýI‘ˆÒ»yÇ(_ï°.v(^§É6Xc´¶™È8é[5‰3lX¡§ÉàMºy«l8L‡u€Mw±û‘Í‡`qØn«°­öL‡#¶LhÀ6l!Ç€9È1à@Žr°É1À&amp;Ç ›ì2;'G‹ÅIæ.</div><div class='line' id='LC23'>NuÀU\cã¦ûW(&lt;Ä†Ã–^Œsm™öŒŒM‚eõb{&lt;KpÉlÊ”(Sv L</div><div class='line' id='LC24'>°q3eÊlÊ”Ù”)³(3f%Qp@¦ëp</div><div class='line' id='LC25'>Wðuû…›˜”‚ìæ&amp;Æ”ÙŒ)G¹N³­ãV\9¶ÏÙàƒb;Í ­µf?Ò’c;PÅÚšQÐpÀlsvhÈth®±qýË</div><div class='line' id='LC26'>cØ[›0ÅÐ¬nÀaKß¬€	²#Ã€õï1ñ ®:àÚ„‚uLdGŒ‡Ùh–Ö¬s…`ÔuSÙ°¥Ð4`óN&lt;HG©bknÒ C”™QJãæp4ð VÙ°Æ‚U›XÎ`´ÆXŽV‚¬­b:¬²ýNeÄ£qÇ|ªyéŒx4y…Ñ&lt;Ä†ÃØ8ÑGoÒÈ–A£¸LwS¸jžQìû¦ãŸØ½þ–ù‡¨OZ©0</div><div class='line' id='LC27'>9„cÈ!CáHá1bÃa±éÎ</div><div class='line' id='LC28'>C„B ä!‡±C Ä;BÌï¢Ê±/$„l3e¹z¶¯©Ê¨Vc7ÝèSUV­­c¬n</div><div class='line' id='LC29'>FÖ#@eãŠÂÂeê‹4tèÇ”Ù(\c·7g¶”T&amp;bM6bŽ™¬']Ñ13JD…&gt;ÀÅKGún–8œ~F°pÔÚ![7!›åñã¢ÆÂU\cãz&amp;Œß &quot;+ÌïiÇá€¬Y`ÆW]eæýõXaÀA6¬²aÍ+Œ4 0¿É(ÇnÙZ‡q§0¿É)+Ñ\b95`óÙ%…+x„›Ï.Ü²Î´*iqT|)¦¸fâA\uÀ56nŽS±á°–3¾ö&amp;‡èÎ–+ŽëªQ@Á©xÐWÍÃCl8LÃ±;¶-©Æ¿búè$vã¬½µf;b6`‹ç©´çQ‹¡ÒžÇÆé[ÿ)Ütë?…ÙÚ¨lXcÁa¶îéŸ|3tL¿Ç‡Ù¸œê€Ó¿Aá</div><div class='line' id='LC30'>Ž˜aF–¤a‹îì Sé$bâŠq»¦	NCãúý2C[ù°¶ÿB¢¬:™ww“	ÂÌ_‘c·ñZ:GëË×åØÝ­![çö</div><div class='line' id='LC31'>'Q6Ý¯ª0qúëîfœÝ^uÀ56nºÃ™ÂÃlØTm„© 6+i1Uþ‡©àcÂ*ÖX[£,ìeaf”å¢p™ÝÜ|a‡à³ƒ/Ì¾0|T„MÑÄÄ&lt;ÂÆÍÑdàA6¬²aÍÛ+‹ló÷ŒT­þû:§5jb!¡Ëë~¶Tú±›MÍ¿,eÂ56.›îRˆ0¿z‡eÛ¨QØì±›V[/Œo/ËÔí£Kï1&lt;ä€‡Ù¸lÕ2†mê¤ã</div><div class='line' id='LC32'>ŽX`‹°N´2×³°lî&amp;Zå(–nda’ÝMˆ‡-°}×˜HÁ¦ß¡ñ ®:à—MŸ	1ïM”c÷Š¦(dÂ™´q ½ˆíEØ´q ½ˆíEØüa!Çni³aFØ0âÀ†6Œ8°a„Í†6FØlaþ‰ËŒ3«ë~­D</div><div class='line' id='LC33'>6WQ®8à6nºë”ÂU6¬Ù`íXGŸ‹ƒÓaI°Ù})&lt;ä€›Ü×Àevs³ûjÜlà</div><div class='line' id='LC34'>ŽX`ûïP¤wÎ¤lÍ²5&amp;eç¢p™Ý\vÖÌä›É5“§÷½¹Q¦0Ž‡mse2¼æÀðdÃš¶äéG?ÚË¦õˆQ-Í´š“kL®90¹æÀäš“xˆ‡-pü‡ëB¦¹Fâ…Wð—M·ox«lX³ÀöäaÀØ$1gÜÓG÷Âøí 6%	²a•kt†Ð˜w×¦7Óuˆv 6]kt­9Ðµæ@×dÃ*Ölgõ¦ÒGÀšqk+õë%	ÁèaŽùEƒô·ïãßo	2oÀNˆ}|e¾{:È¼Ó„úÍ(ËxQ8bÜæ™û¤ËT*ÇQÕÚ±ñNp€‡¨“</div><div class='line' id='LC35'>¦÷¹lºÃ&lt;È¼•Ä@M¸Qp«lXcÂô‘d\‘°E‘ØÉ#g	1Xµ,x¶¢é9&gt;dG­u…jf”ñr}£z}÷uy÷u‚ÓiSYŸ&amp;ÆaËzi\cãôš§ã¬B†ÆC8]ÈP¸Ìnn*dh&lt;ÈîFaÃlÞ«ÇaÕÛ‚#1¶‘f:Î*‡hÜ©}È2¬½¢a…G,°ñÝÙ‡mÎÁªn(ÜTÝPxk,8Â4¾«UéæŒê††Sð ®:à7U7bÃaÌ¨n(ØTÝÐ¸â€GØ¸©º¡ð VÙ°Æ‚[Ø¿)¥ÃÆÔ5ŒßŒ§ZšÛ°Ìhnù‚CWÙÍÃæÏ¬i&lt;è€«l\¦oD qúƒL</div><div class='line' id='LC36'>S%[0•Y'Q°©N¢qÅ°qSDáA6¬²aÍÖy¬bâ2}x‰‚ÎLÝ!lÂƒíéï¶Qxˆ‡-°ñ3l2Ý939’SÀ!9ØÉ)ÀLNts…GX°%Ìb7`ÛaR0}§…›Ø*Àf« ›­lp`« “­èîƒlXeÃYíÂ,¬ìˆ4`Ó—9h\uÀ56nºa™Â©ˆLˆÝH¤Wõ¡0…2ŠšGÆ·SLp&lt;¼Bñ„.Ac÷…í¨uo‘+Do‚©8Ä†©A‚ËÌÆ¦í‚«V4Ãw¨ 	±7!ö&amp;&quot;ÄÞD„Ø›ˆ{aÀ!&amp;ftaùVjìæ#Å²²ñÿ£OïCì=@ˆ½±÷ !æ †f8M˜‡Œ;¬b7 ™w™±{tÌ[ŸØÏ_ÚÚ?°¢æªÚ@õ/ž*8Ì„åT6LÇ›Âú*H‚Âô%J+–%T˜wŒ+ì`QØÁ¢°ƒEa‹Â…,</div><div class='line' id='LC37'>3Xv°(ì`QØÁ¢°ƒEa‹Â…,qTµxã6Œ„ØÝB©óÇïÞ˜L,ÓW²)8Ä†©ÅXf66ý`§Âeª…‰FÌ¨=bTÖ|qT±¢rÌöA*3ÛÊ¦ûÿ)4•Ù°Ê†5&amp;L—”&quot;!&amp;ft1¥ÂÖ¨_éŠÝŒ%›n½KP™?¤¤,c±‹“T&amp;'%°Ìl,§²á ³…‰FÌ¨ý_6$¨¬/ÂÄQó9¢JÇW¦T‹¢:{…­Íw©lTÙ¨²Pe2 Êf@•É€±_x´Šf?{£²’…RJ¡!&amp;6¡Ôwå(1ÙHe³‘Êf#•ÉF*›T6©L6R™lfòC˜Ía6?„ÙüfóC˜Ía&amp;?„Yü¦¿ï°¢æCà0;âÃìˆ³#&gt;ÌŒø03â©Æ</div><div class='line' id='LC38'>˜Qû=Ì:±Nq4bG­É5W›þÝSBì¦,s}fE%…ÒÛôp&lt;—ë¿%6`¦ï‡Ù¾fû~˜åûª0Q³7SßÒ‘©á¢7¸›þ•\ìçÍ¶ÄÏh{Æ~80”^9kTãhÏJùTÕ„Zc*!ÍSŠu8ÆÕ‹ÝÀckk¿³=!vM˜‰Fì¨c·²˜éŒº†þÍãNú_zQ0ý½b7‰hkÆ÷!ô!›ë·dÆa-nd=ó0õ%‚„lŽ-^2ÑGó	Z¼¢ ëf¥oÁ¦a…G˜°L§2Q•‰jfÔ~o^Bì³vó¾,†F¬Æ3v&gt;±ŸÏ</div><div class='line' id='LC39'>YGÿû}Œ—ûÄ[³hÁøþB5ý·¬\Jÿ/9VØp„	›ÜÎ€ƒLTe¢šµãØ–Ê4AûIˆ}pFƒ&amp;TŽÞùGyµaW{ãÍ8‹6ý·ÓLm»¤õŽþ³Sã_ ¶OkÛ§»þ•ÿã81'Zµ„ºpÿQ6Sô¹~…þrÅèëL±×Q¢&quot;E_gŠ¾æ©þÄh?éÿ=6†[Æ‹©,Ðí¢ýIQÉd¹NŒâ&lt;Õ.õ¾Óƒê·ô‡¾&amp;ÖWLwºOjl²KLÇø&lt;,ãÄì’‰ºF´öë$Ôõõ:f×øxTß1=bóá)&lt;Ö–ž‹ÍnV8Ã&amp;Qú˜ú‹öAÏ1¾FœáWñk¨v±uGÍEˆ¾OûG¬?Úoé¶&amp;;Smèµ£}I²\óÏLôkêÚøõ±k¢ï™ÖÅr=í³´2QïÅÖ8¾îÔõt|Æ×˜Ö¥göíØuõ^ÌOâó§®¥ãI¢°˜žVª}Üÿ-×Çcs¶OÜ÷­sgèB¿÷IËX=&gt;gÕX\Ñv‰÷Iµ‹éFÛ’öÍ˜ýªýœž;=“ÿ1ÚÄú°Ú’Ö%æû´Ž´n±x‰él«ø£¥øTV®ŽsÕž¶1=7ëúÐ&gt;dÍñ¹Qíi=lño™gÜÏhÌ2?SŸÔØV¿1Åa¬¥‡`½†î‹î“Ò!n_N¯?½´½DFš»é1¬±Bû¼dy¤ý(æôšÐ~eâ/Îìqßãì&gt;fÍ´&gt;…Ñc³øÀÆ?Ôø´½MþKMó1í¿qŽ²Ø!ÎT›-©kbã³ê‰zNÇ&quot;_m¼OéH×j,Ž¶ñQì5ÕÆZ/Åt¢û¯Aì=Joºv²Õt{ÆVŸ2Íƒ£ó!#t±ÆwÌ&lt;«E×L–ëéx£ãÎj7:bv6ÕX}b6ˆÛ9f“Øœéë¢ñ5¤®5Õ…T;zÎ±±œú±Öñ:!ŠÑ±ë›®Yu+çÆ¹‚ãl±M×Œ&amp;?åŒu3ÕTŒëLþ@?Z1Îð©xNÍjÏäÎ²öÔ{4oÑkJû0+›jzljþÖ¾­üÃÚÃ™êYÎ¹ö5ÕnŒq­u©†á,þNÙ‚ö7k¬Æ¹‹Ë”_9*8K|Ñ6¢lCûËVŸ¤ý?/Ôû¶}Gl&gt;t‡&gt;icígè&lt;bÍ=¶ú–ÖÝÒoÌf¦=¶¥­)‡Ñs ã¶¢®¥÷)VN²ú·D_Ó™3¯I|¿FIÜ¯©6q,ó¢mÆòû¸--6 ¹Ë:_SÝÆ™ù®¥Yü*Ñ¯cmXÌÿMkMÇŽ/ziŽ°î_¬yÓÄ­TÿV&gt;3ÙÞ¢Oüìzm[gŽ/±¾©vVß‘,ãÐuš­~fèÄ¬¡c:Xû¡t¥Ç5Ù×‚›r1k|Î\›Yc.^Ïrv_Ž­§•ß­œIç:+wÒ5ŽéŒŠÂ˜µ¶¥Í·¬}];˜ø1öÚÒ/íûô&gt;€åïÿ_}iåešâö£úwÊt¼XuµŽIû¶5×Z×:“¥•ãõ»uÌè#úQ®ð‚Ë8½Õ¯ÑOoùJ±'•cOªÄžT=©–q±»˜çG¿\zm7ð‘&gt;Tæ±Gâ&gt;rdíˆ–I‰a•÷?»R&amp;Žûƒª~Ú©1q¹—µø5_Iâïžw¿ÐÇñ÷½K&amp;–2ÙC¼ó·oŸÜ$7ñÔÊº´ûÜÂÄõÑšë#^ÚM\–ÌÿYþÄß°ñê.uo÷ßùCÄy¹ÕkSîŽË}?þáGâ«¹¶L•ˆ«kÈé¶éçyçÓæ•«H|Ã†e:4$ñü·ñÙ£ÿW…eëŽ¾omo»Þ{1Ë”È¥Ä?¸è{ã×#ÉÓ«¤õš™x³)&gt;µE?â-P%Ü¹úVâî»fÿÜÔŽÆ¸'óLÜœsq¿á~¸ªä—Ä·ê¿;™Oø‰·Ë£ý=ÎWqÏ=¸PÿÌÝ¯ýåNa\?{ëÄ#kO¶uUM&amp;îÍþR3ñóÞ¡Ã¼n»ÞÕ±uƒ&gt;!Þüîß|&gt;Ëè÷Îº¥)ä7£]¦õÏ~þÈQOé!'Îô¼oØaõºQs¶ˆ¿öeiv¬Tb’ôå‰]Û#HÒ^Ú¹ök’,|àÔ˜ÇÄ»mÒ¶úeßk¯ü	Þ²ë™íýË¯¹ýZÜÚv6¥Iy³Øä×6L!žVYó¾–lès©\Úºˆ;G¾?¿«Q…øÚè1Š¤,mÙbíï!â=SòQ½wçãk™w\òÚÄ÷kîþm,&amp;žËÉ/§yx›W¾õëî)†Óo/\ß¶€Ý¶ÿõØ£Íú_þâ8~òÍ[ûòíA&lt;Ò½M+½FŠ</div><div class='line' id='LC40'>›¿ò1nÍ{sržMŠ}ðS¦ºd</div><div class='line' id='LC41'>ñž,þßôW‡oá™Ë…BÄSR»¹eRCŸ&quot;[ÇÔûö_ãúL›B³#·váìœºGˆ{ì™¯VÞ,J¼-ó§h#‰÷úÔÂyº®4ìÑãgíÀWË7•‹”Üñ©·âž6³V6^¿tã«y_ªÄ?hf×ÕK|¶yùÃø:ÿÍ$^q]¡îv&quot;þCÂOm:ïw´ƒÿü¨eÛ%žMõÖþQf.q=Ü`Ì„Ævÿk»°Ì–]Eã¯SrOsOÞ¹–xNõ6ai/Ã{–~âs…IÑþ›mÍÔŠx«OêSÚ5–xùì§î×ìë0ïfÿß›ˆ«N!¥_ÞN\½“Gß¾œx”wñ¿L’–æ?¿âât¸óÕ¢}mNAË·Øú+ñOÁ'ß}_œ¸«Þh?«a_â¾úþ·rˆxê”l¼]‘¸¦~RjÔcâ¾;ëqèóÜÄß¥öÆ{÷*ï„áã</div><div class='line' id='LC42'>&lt;$Ä}ðë:Û?$þ^?tØQ%1/áÀDaÓnâ~§ü˜ÛÞ%É™¦œœãÛI\ýžu53qWáj¦žl´ß]÷y£Õ'‰§\›m³2O ®W½ÛÖ¯|—”ŠiÙ«y6û:œ{«ÃÕê¿Ï„|}¯}ŸÍ°û²äÒ—_Ü1ü¤gõ“ÛE|ò¶/G\ËI&lt;;ïôé_q4g{á¬Õ¤”«`þ¦‘¯ˆ§ñòC’ƒö¸y¥ÏGc¯%¾·_¸ýZ?âZÞqÝ¥Õ?ÇßOú¯YîÁß‰ÆäÍÅkm5ô(úý¡„NâI»U3ßlØiT»‹Ý%^îóFSW}íÌŸc:yît¯O|¹Oüø[ƒ¿&lt;–_\W</div><div class='line' id='LC43'>~·'uÁ€fx¦ûnÍº•¸vþþ‡Šooàvéý+öoïô´m»‰÷ÆŸ3žœ9I¼ïdïÔöÙ]c^KCûZ?;@|GÎÖØð2ñuhšPÄ·„xô¨¶äiÍh?˜š_œ$îõëW®k¶Ñ®¯/r,‹4ñÞ|â¹	Å¿ÿÌ«:ì&gt;ñŒ}ëÙ½ë^‹:uTâW6N¨uŒxëSôË£Ä“oÊÆéd¸±^;Ž¿ãŸŽø;œz÷DÖ9Ä›£[µmçÙ×eòŠÃ®›‰çóçû¿Ò’$ïÌÍ½|!ñkMŠž¼÷qg&gt;ýçÄûC‘G²4Þ¹ˆ¡Wþï«-ûôm’ttcy~#®Š¯o¿§÷_ÿ“=?µ«¿ä“,Äûpë®áÊ.Ãu{~5íy{ãu­­GÍýˆ$½Ò}ÀŸ¡ÛÄ«u&gt;lÜvâkõwçžCoØç“wZßüÿ^'žñõš7ÿ%ø—ŒÙ·ºµ¡·{æk[÷UxA&lt;)wûËý5ñé·óåjË8&gt;¿scƒ’ù;æ&lt;;õf!Fÿï&lt;È»@¸Œüvlü{-</div><div class='line' id='LC44'>óY—–ÿrïeÄ_ï^¡ñ—ÜÄÓ}AE'Þ!IS6¿ÑÿÊ6âýäQö¿&lt;s‰[þöþù?Ÿ6'¬ŸZ¸Š~xì–DŸùæ</div><div class='line' id='LC45'>.É§cóa'–—3âcl½¾]^2òS‰'…?ÝücâéØmé³Zëˆ¯ÈòýÇ—2xjø9n˜L|O•ï¸$ÑîoG?¾)Î/NùË¼®·Ÿ%¾Î¿x_Ê^ÃÀÛ´/ùWé¥Ä÷ú…?VµñžÑ.WâÁÖ·&amp;Pnç˜¹7‰'Uû¶v«L†}Þ1Þ¿òoâY&lt;Vûð;†¿ðg&amp;¾Ya‘}Ÿº„úê­e&amp;Ÿ®Hüekœ9RaI:W±Öö+:TÛšï_±÷s½¿ÿ’&lt;òA¡K9âuñ÷ÜsÌûïqâ&gt;·èäæ&amp;w©q_ØØ¸¦lØzkðsâÜÞ¿%þÜ«®tðñ›ÿËà¤õÄ½vÇõâÇÿ#žã¾ßÐÈÉs\=§d{›x½‘pkM+c]r×ª_~Æt’üëüÂ’2ß+ƒ·¿úÛDç:ò’G’ZW îç•òîQ¸ñõí–ðcžÑ¤„0yMv~ê»­7oobÌ§p`þ{“ú4É1U¬7…”HªøÕmxwPÓÚ‹ÆÂ¿Z­¾öÍ‰ª$©Ò®Is*¹ˆ§ŠüßÂésˆ'gÚWwfJ¤xÞËwÿõê®«žƒÞ!¾”B7Z|YÇÐ/õ“y-M žï:nÿ~åtð†ë×·+£n‡†7+Ý˜¸s§%íßõ‡½Ž{Ã-­²âýåCÇŸóÏœ&quot;eÜAÝ&gt;ãÄ7ã$I&amp;´&lt;Õ¼{iÝ˜bÓžBõ¾áÎ¿Œ¸\ùè÷Qn’ôs•Ž¾š—ÿô““g¥Äÿüzà¯ß’$­Àªàß_ÇluW÷¾f§fŽjiç•Ã{jÏ®¸Ø9/hgN$ÿö)™óìñÝ½¿ã…wÖZây{ê%mR…ä'Äó¨W–‘ù'ÿÙ/=sÞ˜gHë~fâÃ^ùê5È»õ,IªÛ²NàäLâ5óZ­sÛ¨¼9çÊƒÈ	’ÜÑS£êœ§†žÉ—·Dòt„ŸpîQ‹=Ä;éÛÝþ~Ë¿z½Î†e¾&amp;%6Žš9ùp9âm×óÃYåôù—mù¥1ùÍó½ %­Üs§ý.»=Þ›§c%ž¸ë´¿2vsI{Ü^qÏ9Y¤‚ßõß®?þ@¼£ÖgZØî%âÚ;¡ëkßÉÄçüé·}Æø?©5âôcâ¿ßæ»ßV1ðo*´©Yoœ+ÔüµO‰wîà6ÎN')3?¾ÔÞq}&lt;‹·¬®roñô¿ðnJkÛ&gt;“j·lÇÜ´ÎÄõoó´ÒSw&quot;·2Tµñ—HÝ!ÏJ5ôQvI‹&gt;‰Æz%_ú`Š b×f-ŸýC’ÜmÃ7·ùÿþg¾ò¶:óbÐß¨ãª»3a)ødož5µ†$Þ,¡cílÄéÀ|¹oI7=ßüh[ç…Iò_Ÿ,¬ºc#ñž]9¤b;£nõå-ŸØdøWr°ßÔ¾•¦÷þÏ&amp;§òVråýãRÔ;Äµ¶÷¦µš’ä¶­Æ×Œ_ä%=¼Ä•õ¯|Í&gt;úÜÐãóZgwûšOÙ+mÕIŸóÈÑäÜ˜¤ŽÈß)Ÿ´íYø+l²·ÞPû|·žÏ\àÑ°cÁÍ:&gt;&lt;»oæÝo¡î|ý÷ïNeîh_—ü_Ükû6êœËõ2øÓ›«äˆ÷.2úÛº¬³ð­‘÷}m_¿Q¦È)â&amp;¿|¼ý„d\—ØdÐ¦Ï:ßÇuú”îº•øy&quot;¿¬fôÓB&gt;¼jôâWÕQ­G_'¾áá&lt;O²^$¾odÛV¤ üûÌ_^÷¥ÇVœE|õz}¼ÿ·ùFÿaþó^5Zß€Ïïçïý¥ç/u\{gËâãïúã¿Äón¯…_À&gt;±Ü¡–æDˆoÛƒ¢Éß%ž,}*¼±$Õ?|õÃéóˆoäÊ¦}{ˆ6»¸ÎÞr­æRæK$®oVM\ýƒj¬Wÿü×&gt;iK¼Å[]jr±&quot;IN: VjV…x~&gt;.óÑçÄ3³†n¡N†+Îz¤žŸm¼î~{~½«TÝ´½áý·Ž•$ÞÖy÷~œO1Ú­™&amp;ëQ“”Èòø^×¶åIÉP%Û</div><div class='line' id='LC46'>å%Þu¯6&lt;=pŽ±áiŸluœ$÷ Ol{ÚÀK¿µ ql$ië®Í/»ÓþgÜ¸;´ªØôùzâ_¡Ø‚Þˆ¯âÆÝ2Ý&amp;îÎi•w/óÿ¦k‰Ž‡Ë÷KíŸ–&gt;Šu</div><div class='line' id='LC47'>z[¶,µ’¸ëtijcü‚ÍÔï‹üB¼;Ž}uÚŸÄšsöÖŠfÄ½³G–—jU&amp;Þyž¥þÌñ)O~Û!NC’püšð7ñnëõvç°ÿÈÜ}?Z‘ßè¯¾ëi¿O°ûq¡b›ºUÿqaÐú+Ô~©á«§W9Î×³°Åö?×å%IW\®[¼¤W¿’åñÄ·tXþáoc?1wÁ–ÃË°O¿?=ß“b¥HJÉ5Vo\B|_kÑKhL\¯&amp;ÜÜñIÉÞ²Ë¦AÄ]›ö&gt;¯›xkn(ôÃý&quot;¨³©õW³ŸÔ§à?Uw-&quot;žC÷§ž©tuÄÒ³EA&lt;÷)ôÖŸ‰{ØßÊZ1ì¿¾^ÜóqÝnÚÉjëÇûUÃ¾ž¢;‰çå	ïMoÔ†x³•{çé{‰oÚ¬e2÷'Þ›ûÆ=º˜@¼Ù…ÿ8ýIú»ûñz·íuwî»Y;µ&gt;çh¯¢¿þ±ËƒÃFûî¾n²ƒ_{4¿qòé—ÄóÅ­B;î#ÞŸ»\½MoJZ¥ÎßÊö|UôÆÐw{3ú9rsêòðKÄ;tÅwß.Þc_§¯N&lt;û}(ô¯r±õ±s[íz¯\ôOÎ«AÃŸ](soí?ŽóHnÛáòÃ5m×ù&amp;ïñ}mÔëÞq×³¬Ë×™xOÝÜØáùnâ_P³ðTy</div><div class='line' id='LC48'>ñõï½ìÞï%ˆ¯}ûGrÁÄóÆÙ'³ÊÄÅ}8&quot;ù§zÄ»ã&lt;IÊÁo§”¯œlŒ:ºn¹ÄE/ˆ/óGUöV&gt;D¼k»œ]Ö-ñögâêw'þZ^õÅâ/5!­þÃÄýàÔÙzÙºöþ:¡wó}­Iò•î?L¼Ýuñ¡¹\àµsóš”zHôL/Æ#oOü¨É¬ýí°ž°êÄœ^ÄwvúÐ-ÿüN¼uvÉÕfô¿&gt;bváÑÄ3ëºGÎ&amp;®}…¿ô,|¸7´ú³Ô›^û:µ¼›ùÄÝêÆ:ìh“½þ-‰»tëÕ*¿BÕÉOÛ¾·¹ñìLÊ}6Ÿxæm¶ÈSÙxò×Çóž?fè›VöûÓz¡ž\‘ûòÛù¯1^½‘Ëgï©D\7å=Ó`IIìyúBØƒú{–¬Ý½E&lt;åwwÞÐåsâ:}pØ¥²¨›ŽìÿüÓƒös)WŸ×Ûüþ`qåüû×®_‘G»m›Õ{9âeüÅæ=“ÎêØbâÅï	÷ëOàÏ­×*ˆg&gt;ù´ÐæÊyvoÿF]NóUˆûJÎÞ+¶¶ë=-T¾Pé1F¿ûû$ÜŸJRJ\pWeâ=Ø¯óûósŽ·Fmø»ýOˆŸ¥cŠ|ðU_¼q ^ö·mýûWäÉY/ô3IÎÝ‹k;A%ž¯f[· ñÎÜ‘µôÏ‰¯_ŸÏ®¯mÌG¹L—/þn¬ëŽ§«ÿÜP†øk¿”Z'YâIü««8`£?—ÇõÇlâ“j]Só\7ÿíü—&quot;!âiþ}øQá_‰wgíÞeÛ´ë÷Y­ÞÛL|£›ŸÑóqØ9'a`Oâ]ukâ’~‰{Î’V6µ$I¡ZÃžÝI|I-~¯Xéžq}ƒkûVvõã.¯°[rÍÕ6ûÁm+IÊï†Ì¨2urÕGÃ·^vôÿ¶fYïF¼“ÇÿûæJâÙòðÈZˆkq¥ºcÇæ%EêlñU ynÞîì‘9nÔ%w„šì4üvþˆ` û0âòãƒóÇ§½”Òoïƒc'e÷¿ÄÓD­Û¯ß»Ä›óBó¡iÆ~Þ7¨gö'¯Œ$ž?ûŠÿv#)‘1îNO¾'¾:M&amp;uh^œxŸ¬­ºé\’Ôbý™Êã^5Ö;Ç©‰¶~ˆõÉV¯ã—È‹žä9•ïIò¼;A8B¼¥®,ó]Kc~ƒÿ®ü¼…qþá	”@mccqüýíÃ{Ä_§‚Ù_¸F¼ùs†¯Áã±+/:=\yŒÍ5²òõ7îÐ…/ŽoÑœ{Ë%~aŒWóÆ/·ÚêoâÙ¾ða¡OÃn§7­[{·¡ñþƒÏ¦öºC¼_¼û÷êmÛHRmîáÇ¸7úy­BãÎþ!îOþ|åîÏ/ïæGÝH\Iîßþq(Iš5p` öc#—umûïCÏÒS¿¹r°q-šÿß*OY’ÒVZ6¡Eoâ[pïºÜù5øÁ¹Š¥¯½†:äÁ;R§ØÆ-Y=Ï¯uC=þ©x ò¶ÒÄ?wê­âkGß£çÖìeèw7Ûû}k­³ÛûÍçõ²¿õ1q}™»iŸ±ïßÀªKÿò˜x…ú=ùp{â´¿iÛ¼à¿çÝþi×õè³Wo–l!OÍÂ·&lt;±oKiRcÈÃ¼Ø7wè×¢J#âËz6Ç7WSŒqß+õæú»kÁß‡Ý¾½‰8z¯Íä£Ô¹Ü„Au»?jOÜÇûóo;ï˜aëµºE|¥¸y»&amp;þªÍ§Ž³é’¥ÓåS&amp;¾µ_ZóÙâyâû·ÛÎ‹Ä#´8ùtÁ0ÇurMZ¬n[1øÈ»N.I&lt;Uîyü:ê—OJ/ÈIÜJá–=·ÿeè¿fYÏ‚Pç¹žê·ç9ñw.î›Wö%cýVýY8ûèL'ÆüÚôñ,))&amp;ÊKJrÞ¿;%îEY·Ù–Úˆ¿Mkwæ•@|ÿM	î/NÅ/0h`&amp;ÔQo^è}pÐ6âi´(x‰òOwü©_¥ßŒ¦]Ç5ëG\Enent£#êß2‰ÃSzSvž{Uï¶Äw¢ßŸ¹OŸ'¾Öþð¤å'Þ•/šŸ×wG.Ù×„øª×¿·á‡ZÄŸ&quot;ä½uÎ8—÷Ýw¥Ëé‡Äuvbë²N#þÓ¿ÜšÍG\óK¼4ú„±ÿKI;W-×¸î†ÿ”øaÍ„§$÷“÷fsØÇm¹p½î¯[HréËã?ûÍ8wðüZÊ»hðxÔO‰G¿[ÂwÝŽ,‡¶'îN&gt;ß¦qØŸŽ8Yxà3Ûçcï—ïjìk½÷ž?'+ê˜?—ä4~;âa‡C¨+Ê]^¿ëuÛçDÄ[¦Ô«9Å.¨ÓFl*W·ñÖ»°æƒÿòoË9Eúµ&gt;açeþ;ù¥“]YÅ'îß&lt;ÄQOõR­&lt;{Œù/ÚÅ».!wí¶ä­†’^^bêÏþkï&gt;+ç&quot;Þ“½WNç	¾×†üñlìQRüwê…€:¹vów&quot;®¦ã&amp;ï8Y]÷ËB?¶~~×fÁ‚eåHòo}ßí5xÓò^û¬Á{ÄuïXóæËS)½ž·ùµêøŠí^i_»ƒ×¾û42°ºÝ^‡'j1‰#Þê¾¯$îöÕª/;ue¤ÆE§aßUû3ßô%X÷v­§N(Œ|³…{›ñÒpÎâ‹ˆ¿ø·›Ú,c·OþuEµ%ñÖ¨~ç½ßÌ|øÖˆÒ?Ïø»µZ_ÿÃÐãAÑ	yªÔ4ìóÃ±¶…öïÿ¶ê{ïãuÉ„†¡ëålûHâ¹Q½ÐÎF××Í&gt;Ý2&lt;7ºcÑoÒ8âßÕìØ ?ºÀ²Ìêú¯í:÷;ï–ÿðÍMÄwàÊ‡ûú¦”éu«TÃ!ÈÓ»÷ŽM3ìé¾Uîlâ+ËPW¬Å×}`èyôÞ˜eÏâsÄßó3Gý¹¼Ê&gt;ß:ãºòžñï~1•¸ú6ŸõÊ^ì“.®_miCâ[rúÚNuqŸÞr^*÷Èj}ÊÏèKÜf¯­•P„ø§îÌU²³ñ¹¯kß.™ÎTïæ¹úðjYcþý?)~òÃSÄ;}|·:f%®ž[VæáÖÏwÏü»6½AJ¬&lt;F6ôÎC¼Ó’Þž±tñŠ9ÏózMâ™±¤å_ùf¯4éî¡ñÓI©²Vx±¸3ñÜŸ;3ÛÓŒþ—üañk]ˆ/¡u¡‚› GÙ÷·Í/™B¼¥ûÌèâßk_¹{^Õ¼%ÉÂŠ¯1¿n;[K&lt;û:ux»k‚Q—~¶¡Eåõë¾¸±ª„ö:IjÐª}W7â¹žåy×‚Æç•îyÃ?ê—¸$ý¶¬múùØ„Å?;O¼™'õ{Ý{Îè÷àø»Ç®Ÿ#Þž§ªŽ|Ü¾î³ë©íÇ•Døâ‹:£žïÂ¿ìžm|Nç¾›óáè·?&amp;ž‹^ô7x­$ár6ºE­{æGmÖÞiH\wo&gt;\c¦qýÉVŸùOÒ¼ü›ëK\3fª¹s1ñ¾¾ÿ*7~Â¾tO!OÄvŽjÏk-K,Ëvý(ñþØiiõjF=í¹9éßgÊ/Ä³¼IÝjEoß§ê]ÊL¼«W½yå9öWZ¡“_.@\÷~ç‹u°ûnü¾ßïb½8ï+³@ïáÜW:ßôEsŽÌAýÕnìêóÇý”§ß_—„ÊÃHÒÅ2§ò¼{’¸;“)™Á÷\[¿‘J&lt;®Q%†å¼ žxÃôæ§‰¿ûÖ/&amp;N³ÛyqÊÿ;F\÷¾Ud`S£ÿÓºÞy¶Á˜çìz‡ðÝIòÝüG¾Û6žø½Ç'TýÞVÙëœÙ{nn0›¸k¾•pâßÖÄýpqñ|w~ñl|òá‡Ë+Â^5†Vlt$ýœyS¿O&gt;¦üoÀBîG|MÇ\Qçq=ª¼õ²þö¼ðùÔÄjwË¿x½çîéF~uç&lt;ñèqùIÆxký—gïßÄµt×»Ê™øçMÞ3°Ûnûº›õóög›íöÊS¿™0z0ñ1cHá</div><div class='line' id='LC49'>ÄÕcã«[¤bFÿç•°Ýó¿í´eÕîN™»oÒ‡^Ù2“øÛ?-s¾Ñ&amp;£ß¼‰s—¥EŒ×ÏsM/4h?ñw¹ÜëÄhãs?w¨õà²ç½F»+Ý[ijûüŠx6Ù¸nyâþ{ÝËK¿ƒz Õú–oÞ±ëUCyöò‡ˆ§ÂŒ_&lt;·þ/z¸ïß$å‹1E^ßl?‡ñ—orkJ¹fÄ—Wûðþ5£o©F§V×$Þk›‹n?çJ~iY‹ä‡ãˆïï„—’æ–#þF©N|8øš¿&lt;¢Aþ&gt;Ä?ýÞÑ‹içOglÿ¢qk5¿&gt;•ã!ñüpnjÇ_òØç÷6ßsÕÎ÷QŸÜk÷þÒo‘'3?/ƒ¼÷VŸ³µs†¤ùÿî­»»'ýüO‘.ÙPÇúÚ?ú1ñoNO¨4ˆ{x›¸[kïGGsÎô%ž·6Üùcqý;¢Þ¯C¤GI—¯¥îÇYeà‹«ècÄø&amp;}Û&quot;~h6ÿÔ[EŸß*6p IîÝnfû—ýîzïðõCÇP/®¼’*…:£±@®Í†}'uýxþ¸aØ¿&lt;¼&amp;$´1Ö}Ëº;g”7x¯jøµñYr_¡××û3ß$ÞÆ®É~€$§­?ñ4k.â‘Z¼Ýï}Û¾Ü¸þYµk?T£Îi/ÞË^¤ÐûÄ5O^î.¤dUÔ-wà7Çò®ß»Ë¾ßó(^¹znãs÷§¹ÏužJ¼o7¸ñ»ß°wDéïÞÜø)ñÿR±ßÄÞà±Õß„o?a¬Ïp©íÖ?D’´._ÍUŽúznÔ½²óÂ\#~üÖòªô5ñ…#J`_Iì—¯þÓkÎ£}¡‡=Wï“3Ú/º#Ç—ˆ?ÏŠl%OB¼“šœ/›¯q?Þx±I£ÄÓ›,®°¼Ží:_ówÚ¬NëgÌÿTŸ´&gt;Y'ïþ‘ùkÍ=K\{û¾õüõ&gt;Ä÷‰¿Ëõ¦Wëöìyy¿–™¸ò§vŠÔ(C\¥-lvöq¿åR·±¯O\ãÌG•—’¤ò2k¿ù‚x&gt;_{´õÇAâýþ@ælŸ¯&quot;¾ï×ëÞs€1þ¤s…-&quot;É7X±ê.I™úèŽëäÿ&lt;GjO²ñ©aÇzº\þ]©«pf™}ž®KÜé™G\%Oç½Õ‚:Ÿ	Ý]qç0’âË·¨h½0ñ÷ÿ«¢wÞWÄîö´ÊÊúØ_^üÄ~aRþ]µú÷ªÕfêû¹Gÿ.ûj&quot;ñ,¸66á¢H&lt;¥s—íž=qŸË¾¾h8IÊ}éé™­P}¿&gt;Ró</div><div class='line' id='LC50'>qíxaûS/ñÿ|!GÉ§Aâ¾yçxðWâ.UsËo»Þ$îÏ_œyó}ì[¯[ôñùŒ×=¿}ô‚±¿ñå]òªz½’µgùe…ni]ÛÅ~YAŒ‚Ò{i}ÚEŸgo”ÖµG—ve÷ïƒ¤ªi}Ò,ýdíÕýƒ²±¾rrÑûŽ_¼x2ËáÞl#­lû^¸„Ë¸÷¿ÿü.±°Ì  </div></pre></div>
+            
+          </td>
+        </tr>
+      </table>
+    
+  </div>
+
+
+      </div>
+    </div>
+
+  
+
+
+    </div>
+  
+      
+
+      <div class="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="site">
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog"><b>Blog</b></a> |
+            <a href="http://support.github.com?sso=jyXnMUctFXcbKxjB2mCPAAPCA7Yka5VIJ9ca6NGIOv922qsk3sstG33LMXuejmcrJzD-4X4YMKOaSReFOTZUkbNe8MEdiOFk6qN2T-HwXbqlxvDjoqOZIE-bOPJarAA1emV-hokDjLoLMvRn6zICQ25Vo6rqjQ6XQN9g8_plFqSnNPDQaqiSI4ig7YfeIeifkkqdvvaN7MAxj8ntXYJgo6eJ9ZSpvMrWa4BbENOrq8s">Support</a> |
+            <a href="http://github.com/training">Training</a> |
+            <a href="http://github.com/contact">Contact</a> |
+            <a href="http://develop.github.com">API</a> |
+            <a href="http://status.github.com">Status</a> |
+            <a href="http://twitter.com/github">Twitter</a> |
+            <a href="http://help.github.com">Help</a> |
+            <a href="http://github.com/security">Security</a>
+          </div>
+          <div class="company">
+            &copy;
+            2010
+            <span id="_rrt" title="0.19685s from fe3.rs.github.com">GitHub</span> Inc.
+            All rights reserved. |
+            <a href="/site/terms">Terms of Service</a> |
+            <a href="/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <div>
+            Powered by the <a href="http://www.rackspace.com ">Dedicated
+            Servers</a> and<br/> <a href="http://www.rackspacecloud.com">Cloud
+            Computing</a> of Rackspace Hosting<span>&reg;</span>
+          </div>
+          <a href="http://www.rackspace.com">
+            <img alt="Dedicated Server" src="http://assets1.github.com/images/modules/footer/rackspace_logo.png?d30a9dc8a647b7430b9daecd67a285ec9f72ab63" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>window._auth_token = "2fd100a3f05c514b0719582924db31c0320f5368"</script>
+    
+
+    <script type="text/javascript">
+      _kmq.push(['trackClick', 'entice_banner_link', 'Entice banner clicked']);
+      
+    </script>
+    
+  </body>
+</html>
+
