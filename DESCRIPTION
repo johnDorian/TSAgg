@@ -1,6 +1,6 @@
 Package: TSAgg
 Type: Package
-Version: 0.1-6
+Version: 0.1-7
 Date: 2010-06-08
 Title: Time series Aggregation
 Description: Time series aggregation for incomplete time series data.
