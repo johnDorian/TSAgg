@@ -29,7 +29,7 @@ G. Grothendieck
 library(zoo)
 data(foo)
 fooh <- head(foo)
-foo.ts <- timeSeries(fooh[,1],"%d/%m/%Y   %H:%M",fooh[,3])
+foo.ts<-timeSeries(fooh[,1],  "\%d/\%m/\%Y   \%H:\%M",fooh[,3])
 foo.ts
 timeSeries2zoo(foo.ts)
 }

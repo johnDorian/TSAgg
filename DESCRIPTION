@@ -4,7 +4,7 @@ Version: 0.1-8
 Date: 2010-06-08
 Title: Time series Aggregation
 Description: Time series aggregation for incomplete time series data.
-Author: JS Lessels. Faculty of Agriculture, Food and Natural Resources. The University of Sydney, Australia.
+Author: JS Lessels and G Grothendieck.
 Maintainer: Jason Scott Lessels <jason.lessels@sydney.edu.au>
 License: GPL (>= 2)
 Suggests: zoo

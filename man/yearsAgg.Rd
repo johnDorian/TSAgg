@@ -7,7 +7,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-yearsAgg(data, process, multiple = NULL, na.rm = FALSE, from.first.obs = TRUE)
+yearsAgg(data, process, multiple = NULL, na.rm = FALSE,from.first.obs = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
