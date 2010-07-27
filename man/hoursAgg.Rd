@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-hoursAgg(data, process, multiple = NULL, na.rm = FALSE)
+hoursAgg(data, process, multiple = NULL, na.rm = FALSE,tz="GMT")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -23,6 +23,9 @@ hoursAgg(data, process, multiple = NULL, na.rm = FALSE)
 }
   \item{na.rm}{ Default is na.rm=FALSE
 %%     ~~Describe \code{na.rm} here~~
+}
+
+  \item{tz}{A character string specifying the time zone to be used. If not specified the system tz may be used. This is different on each OS, therefore it is recommended that this is supplied. Default is GMT.
 }
 }
 \details{ This function is based on the \code{aggregate} method. It is designed to simplify the process of aggregating non-continuos data.
