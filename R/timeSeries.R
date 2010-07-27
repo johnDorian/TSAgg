@@ -2,7 +2,7 @@ timeSeries<-
 	function(dates,
 			 dateformat,
 			 data=NULL,
-			 tz=""){
+			 tz="GMT"){
 		if(class(as.vector(data))!="numeric")stop("Data must be numeric")		
 		if(class(data)=="numeric")data.length=length(data)else data.length=length(data[,1])
 		if(!is.null(data)&&length(dates)!=data.length)
