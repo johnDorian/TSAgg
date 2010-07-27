@@ -1,13 +1,14 @@
 timeSeries<-
 	function(dates,
 			 dateformat,
-			 data=NULL){
-		if(class(data)!="numeric")stop("Data must be numeric")		
+			 data=NULL,
+			 tz=""){
+		if(class(as.vector(data))!="numeric")stop("Data must be numeric")		
 		if(class(data)=="numeric")data.length=length(data)else data.length=length(data[,1])
 		if(!is.null(data)&&length(dates)!=data.length)
 			stop("Lengths differ between dates (",length(dates),") and data (",data.length, ").")
 			
-		dates<-(strptime(paste(dates),dateformat))
+		dates<-(strptime(paste(dates),dateformat,tz=tz))
 		minute<- as.numeric(format(dates,"%M"))
 		hour<- as.numeric(format(dates,"%H"))
 		day<-as.numeric(format(dates,"%d"))
