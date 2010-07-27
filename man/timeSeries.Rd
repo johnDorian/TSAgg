@@ -6,7 +6,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-timeSeries(dates, dateformat, data = NULL)
+timeSeries(dates, dateformat, data = NULL,tz="GMT")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,11 +17,13 @@ timeSeries(dates, dateformat, data = NULL)
 %%     ~~Describe \code{dateformat} here~~
 }
   \item{data}{ A vector or data.frame of data. Must be the same length as dates column.
-%%     ~~Describe \code{data} here~~
+
+}
+  \item{tz}{A character string specifying the time zone to be used. If not specified the system tz may be used. This is different on each OS, therefore it is recommended that this is supplied. Default is GMT.
 }
 }
 
-\value{ Returns a data.frame with dates formatted as \code{as.POSIXlt} and data.
+\value{ Returns a data.frame with dates formatted as \code{as.POSIXlt} and data, if provided.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
