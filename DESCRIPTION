@@ -1,11 +1,11 @@
 Package: TSAgg
 Type: Package
-Version: 0.1-9
+Version: 0.2-0
 Date: 2010-07-27
 Title: Time series Aggregation
 Description: Time series aggregation for incomplete time series data.
 Author: JS Lessels.
-Maintainer: Jason Scott Lessels <jason.lessels@sydney.edu.au>
+Maintainer: JS Lessels <jason.lessels@sydney.edu.au>
 License: GPL (>= 2)
 Suggests: zoo
 
