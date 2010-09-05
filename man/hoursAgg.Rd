@@ -4,11 +4,11 @@
 \title{ Hour aggregation function.
 
 }
-\description{ This function allows for the aggregation of non-continuos time series data into hours. It allows for the multiple hours to be specified. The aggregation method is also allowed to be set by the user.
+\description{ This function allows for the aggregation of non-continuos time series data into hours from the first observation. It allows for the multiple hours to be specified. The aggregation method is also allowed to be set by the user.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-hoursAgg(data, process, multiple = NULL, na.rm = FALSE,tz="GMT")
+hoursAgg(data, process, multiple = 1, na.rm = FALSE,tz="GMT")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -18,7 +18,7 @@ hoursAgg(data, process, multiple = NULL, na.rm = FALSE,tz="GMT")
   \item{process}{ An aggregation method. See \code{aggregate}.
 %%     ~~Describe \code{process} here~~
 }
-  \item{multiple}{ An integer specifying the aggregation block. Default is multiple=NULL.
+  \item{multiple}{ An integer specifying the aggregation block.
 %%     ~~Describe \code{multiple} here~~
 }
   \item{na.rm}{ Default is na.rm=FALSE
