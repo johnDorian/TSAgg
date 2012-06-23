@@ -1,4 +1,4 @@
-"hoursAgg"<-function 
+hoursAgg<-function 
 (data, process, multiple = 1, na.rm = FALSE, tz = "GMT") 
 {
 	gap <- as.numeric(difftime(data$dates,data$dates[1],tz="GMT", units = "hours"))

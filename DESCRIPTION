@@ -7,6 +7,14 @@ Description: Time series aggregation for incomplete time series data.
 Author: JS Lessels.
 Maintainer: JS Lessels <jason.lessels@sydney.edu.au>
 License: GPL (>= 2)
-Depends: lubridate
-Suggests: zoo
-
+Depends:
+    lubridate
+Suggests:
+    zoo
+Collate:
+    'daysAgg.R'
+    'hoursAgg.R'
+    'monthsAgg.R'
+    'timeSeries.R'
+    'yearsAgg.R'
+    'zoo2timeSeries.R'
