@@ -5,7 +5,7 @@ Date: 2012-06-23
 Title: Time series Aggregation
 Description: Time series aggregation for incomplete time series data.
 Author: JS Lessels.
-Maintainer: JS Lessels <jason.lessels@sydney.edu.au>
+Maintainer: JS Lessels <jlessels@gmail.com>
 License: GPL (>= 2)
 Depends:
     lubridate
