@@ -8,9 +8,7 @@ Author: JS Lessels.
 Maintainer: JS Lessels <jlessels@gmail.com>
 License: GPL (>= 2)
 Depends:
-    lubridate
-Suggests:
-    zoo
+    lubridate, zoo
 Collate:
     'daysAgg.R'
     'hoursAgg.R'
